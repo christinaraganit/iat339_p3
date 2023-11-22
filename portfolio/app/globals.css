@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+@layer components {
+  p {
+    @apply max-w-3xl;
+  }
+
+  .large-title {
+    @apply text-6xl font-semibold bg-gradient-to-r from-white to-neutral-400 inline-block text-transparent bg-clip-text pb-6 tracking-tight;
+  }
+
+  .title-1 {
+
+  }
+
+  .title-2 {
+
+  }
+
+  .title-3 {
+
+  }
+
+  .headline {
+    @apply text-sm font-medium text-white/60;
+  }
+
+  .lead {
+    @apply text-2xl lg:text-3xl;
+  }
+
+  .lead-2 {
+    @apply text-base leading-loose;
+  }
+
+  .body-text {
+
+  }
+
+  .callout {
+
+  }
+
+  .subhead {
+
+  }
+
+  .caption-1 {
+
+  }
+
+  .caption-2 {
+
+  }
+}
