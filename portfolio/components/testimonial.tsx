@@ -11,10 +11,7 @@ export default function Testimonial(props: Props) {
       <p className="pb-5 leading-relaxed">{props.children}</p>
       <div className="flex gap-4">
         <div className="w-[2.75rem] pt-1">
-          <img
-            src="placeholder-100x100.png"
-            className="w-full rounded-full"
-          ></img>
+          <img src="placeholder.png" className="w-full rounded-full"></img>
         </div>
         <div>
           <h3 className="pb-1 text-neutral-200">

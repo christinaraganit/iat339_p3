@@ -7,7 +7,7 @@ export default function Link(props: Props) {
   return (
     <a
       href={props.link}
-      className="inline-flex flex-wrap hover:text-orange-400"
+      className="inline-flex flex-wrap hover:text-purple-300"
     >
       <span className="underline">{props.text}</span>
       <svg
