@@ -15,12 +15,13 @@ body {
 }
 
 @layer components {
-  header:not(.nav), section {
-    @apply p-6 lg:py-20
+  header:not(.nav),
+  section {
+    @apply p-6 lg:p-20 lg:py-12;
   }
-  
+
   main.has-padding {
-    @apply w-full max-w-[100rem] flex flex-col text-center mt-12 lg:mt-20;
+    @apply w-full max-w-[85rem] flex flex-col text-center mt-12;
   }
 
   section.centered {
@@ -60,22 +61,25 @@ body {
   }
 
   .body-text {
-
   }
 
   .callout {
-
   }
 
   .subhead {
-
   }
 
   .caption-1 {
-
   }
 
   .caption-2 {
+  }
 
+  .chip {
+    @apply bg-neutral-800 w-fit py-1 px-3 rounded-full text-sm text-neutral-300;
+  }
+
+  nav a.link {
+    @apply text-sm font-medium text-neutral-200;
   }
 }

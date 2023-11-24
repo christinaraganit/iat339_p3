@@ -5,8 +5,8 @@ import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 
 export default function Home() {
   return (
-    <main className="has-padding">
-      <header className="grid text-left align-bottom lg:grid-cols-2 lg:gap-8">
+    <main className="has-padding pt-12">
+      <header className="grid text-left align-bottom lg:grid-cols-2 lg:gap-16">
         <h1 className="large-title">
           I'm Christina Raganit, a user experience designer and frontend
           developer who <em>loves</em> design systems, interaction design, and
@@ -18,7 +18,7 @@ export default function Home() {
             design and frontend development to collaborate with teams in
             crafting cross-platform products.
           </p>
-          <p className="lead-2 lg:max-w-xl text-neutral-400 pb-2">
+          <p className="lead-2 lg:max-w-xl text-neutral-400 pb-6">
             I’m currently pursuing a BSci in Interactive Arts and Technology at{" "}
             <Link
               text="Simon Fraser University"
@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <img
             src="signature.svg"
-            className="w-3/4 lg:w-1/2 max-w-[16rem] flex self-end"
+            className="w-3/4 lg:w-1/2 max-w-[16rem]"
           ></img>
         </div>
       </header>
@@ -40,21 +40,33 @@ export default function Home() {
           className="group/project-link transition-color block py-[0.075rem] px-[0.1rem] rounded-xl bg-gradient-to-r from-neutral-700/30 via-neutral-700 to-neutral-700/30 hover:from-neutral-700/30 hover:via-neutral-500 hover:to-neutral-700/30"
         >
           <div className="text-left p-4 pb-0 lg:p-8 lg:pb-0 rounded-xl bg-neutral-900">
-            <div className="flex">
+            <div className="grid lg:grid-cols-2 lg:gap-4">
               <div className="w-full">
                 <h2 className="title-2">Cheeky's Cannabis Merchants</h2>
-                <p className="text-neutral-400 pb-12">
+                <div className="mt-1 flex gap-2 flex-wrap">
+                  <div className="chip">Interaction Design</div>
+                  <div className="chip">User Interface Design</div>
+                  <div className="chip">Prototyping</div>
+                  <div className="chip">E-commerce</div>
+                </div>
+              </div>
+              <div className="w-full flex flex-col justify-end text-neutral-200">
+                <p className="lead text-neutral-200 pb-4">
                   How might we provide novice cannabis users that prefer to shop
                   online with a digital shopping experience that is as equally
                   accessible and inviting as it is for those who shop in-store?
                 </p>
-              </div>
-              <div className="w-full flex justify-end text-neutral-200">
-                <ArrowLongRightIcon width={24} height={24}></ArrowLongRightIcon>
+                <span className="flex text-neutral-400 flex-row items-center gap-2">
+                  <span className="text-sm">Read case study</span>
+                  <ArrowLongRightIcon
+                    width={20}
+                    height={20}
+                  ></ArrowLongRightIcon>
+                </span>
               </div>
             </div>
-            <div>
-              <img src="cheekys.png" className="lg:px-24"></img>
+            <div className="mt-4 lg:mt-10">
+              <img src="cheekys.png"></img>
             </div>
           </div>
         </a>
