@@ -17,7 +17,7 @@ export default function Testimonial(props: Props) {
           <h3 className="pb-1 text-neutral-200">
             {props.firstName} {props.lastName}
           </h3>
-          <p className="text-sm text-neutral-400">{props.title}</p>
+          <p className="text-sm text-neutral-400 pb-0">{props.title}</p>
         </div>
       </div>
     </div>
