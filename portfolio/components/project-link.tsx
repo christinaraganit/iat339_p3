@@ -17,7 +17,7 @@ export default function ProjectLink(props: Props) {
       <div className="text-left p-6 pb-0 lg:p-8 xl:p-10 lg:pb-0 xl:pb-0 rounded-lg lg:rounded-3xl bg-neutral-900 group-hover/project-link:bg-neutral-900/90">
         <div className="grid lg:grid-cols-2 lg:gap-4">
           <div className="w-full">
-            <h3 className="title-2">{props.title}</h3>
+            <h2 className="title-1">{props.title}</h2>
             <div className="mt-1 flex gap-2 flex-wrap">
               {props.chips.map((chip) => (
                 <div className="chip">{chip}</div>

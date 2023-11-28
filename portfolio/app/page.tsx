@@ -51,8 +51,10 @@ export default function Home() {
 
       <section id="testimonials">
         <h2 className="headline pb-1">Testimonials</h2>
-        <p className="title-2 mb-2 lg:mb-4">
-          Here's what people are saying about me.
+        <p className="title-1 mb-2 lg:mb-4">
+          I collaborate seamlessly with design and development teams to win
+          hackathons and ship projects. Here's what some of my teammates are
+          saying about me.
         </p>
         <div
           id="testimonials-container"
