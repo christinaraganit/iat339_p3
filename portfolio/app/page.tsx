@@ -8,33 +8,27 @@ import ProjectLink from "@/components/project-link";
 export default function Home() {
   return (
     <main id="landing">
-      <header className="grid text-left align-bottom lg:grid-cols-2 lg:gap-16">
-        <h1 className="large-title">
-          I'm Christina Raganit, a user experience designer who writes code and
-          excels in designing interactions.
-        </h1>
-        <div className="flex flex-col justify-baseline hidden md:flex">
-          <p className="lead pb-4 lg:max-w-xl">
-            I have two years of experience in leveraging my skills in visual
-            design and frontend development to collaborate with teams in
-            crafting cross-platform products.
+      <header className="max-h-screen h-screen lg:h-[calc(100vh-8rem)] mt-0 pt-0 flex flex-col items-center justify-center justify-between">
+        <div className="flex flex-col items-center justify-center h-full">
+          <h1 className="large-title mb-2">
+            I'm Christina Raganit, a user experience designer who writes code
+            and creates design systems.
+          </h1>
+          <p className="lead text-neutral-400 mb-4">
+            Pursuing a BSci in Interactive Arts and Technology at{" "}
+            <Link text="Simon Fraser University" link=""></Link> and leading the
+            design team at <Link text="SFU Surge" link=""></Link>. Currently
+            seeking a UX Design internship for Summer 2024.
           </p>
-          <p className="lead-2 lg:max-w-xl text-neutral-400 pb-6">
-            I’m currently pursuing a BSci in Interactive Arts and Technology at{" "}
-            <Link
-              text="Simon Fraser University"
-              link="https://www.sfu.ca/siat.html"
-            ></Link>{" "}
-            and leading the design team as the Director of Design at{" "}
-            <Link text="SFU Surge" link="https://sfusurge.com/"></Link>.
-          </p>
-          <img
-            src="signature.svg"
-            className="w-3/4 lg:w-1/2 max-w-[16rem]"
-          ></img>
+
+          <Button text="View my projects" link="#projects"></Button>
+        </div>
+        <div className="absolute bottom-0 h-[32vh] w-full">
+          {/* <div className="relative h-full w-auto bg-gradient-radial from-neutral-900 via-neutral-950 to-neutral-950 overflow-hidden -z-100"></div>
+          <div className="relative h-80% rounded-full bg-neutral-950"></div> */}
         </div>
       </header>
-      <section id="projects">
+      <section id="projects" className="scroll-mt-40">
         <h2 className="headline pb-1">Projects</h2>
         <p className="title-1 mb-2 lg:mb-4">
           I transform concepts into intuitive and visually compelling
@@ -55,9 +49,9 @@ export default function Home() {
       <section id="testimonials">
         <h2 className="headline pb-1">Testimonials</h2>
         <p className="title-1 mb-2 lg:mb-4">
-          I collaborate seamlessly with design and development teams to{" "}
-          <a href="/awards">win hackathons</a> and ship projects. Here's what
-          some of my teammates are saying about me.
+          I collaborate seamlessly with design and development teams to win
+          hackathons and ship projects. Here's what some of my teammates are
+          saying about me.
         </p>
         <div
           id="testimonials-container"

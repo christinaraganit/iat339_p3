@@ -24,7 +24,7 @@ export default function ProjectLink(props: Props) {
               ))}
             </div>
           </div>
-          <div className="pt-6 lg:pt-0 w-full lg:pl-6 flex flex-col justify-end text-neutral-200">
+          <div className="pt-6 lg:pt-0 w-full flex flex-col justify-end text-neutral-200">
             <p className="text-neutral-200 pb-4 text-base lg:lead">
               {props.children}
             </p>
