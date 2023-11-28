@@ -15,17 +15,16 @@ body {
 }
 
 @layer components {
-  header:not(.nav),
-  section {
-    @apply p-6 lg:px-20 lg:py-10;
+  main {
+    @apply w-full flex flex-col gap-12 lg:gap-20 text-center mt-[25%] lg:mt-40 px-6 lg:px-20 max-w-[80rem];
   }
 
-  main.has-padding {
-    @apply w-full max-w-[80rem] flex flex-col text-center mt-20;
+  main.project {
+    @apply gap-12 lg:gap-16;
   }
 
   p {
-    @apply max-w-3xl text-neutral-200 leading-relaxed;
+    @apply max-w-3xl text-neutral-200 leading-relaxed pb-4;
   }
 
   .large-title {
@@ -48,6 +47,10 @@ body {
     @apply text-sm xl:text-lg font-bold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-1 lg:pb-2 tracking-tighter;
   }
 
+  .title-4 {
+    @apply text-lg font-bold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-2 tracking-tighter;
+  }
+
   .headline {
     @apply text-sm font-medium text-neutral-400;
   }
@@ -63,23 +66,19 @@ body {
   .body-text {
   }
 
-  .callout {
-  }
-
-  .subhead {
-  }
-
-  .caption-1 {
-  }
-
-  .caption-2 {
-  }
-
   .chip {
     @apply bg-neutral-800 w-fit py-1 px-3 rounded-full text-sm text-neutral-300;
   }
 
   nav a.link {
-    @apply text-sm font-medium text-neutral-200;
+    @apply text-sm font-medium text-neutral-400 hover:text-purple-300 transition-colors;
+  }
+
+  .document-link {
+    @apply text-xs uppercase tracking-widest text-neutral-400 hover:text-neutral-200;
+  }
+
+  .divider {
+    @apply h-[1px] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950;
   }
 }

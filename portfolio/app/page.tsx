@@ -7,7 +7,7 @@ import ProjectLink from "@/components/project-link";
 
 export default function Home() {
   return (
-    <main className="has-padding pt-12 lg:pt-20">
+    <main id="landing">
       <header className="grid text-left align-bottom lg:grid-cols-2 lg:gap-16">
         <h1 className="large-title">
           I'm Christina Raganit, a user experience designer who writes code and
@@ -32,15 +32,18 @@ export default function Home() {
             src="signature.svg"
             className="w-3/4 lg:w-1/2 max-w-[16rem]"
           ></img>
-          {/* <Button text="Read my resume"></Button> */}
         </div>
       </header>
-
       <section id="projects">
+        <h2 className="headline pb-1">Projects</h2>
+        <p className="title-1 mb-2 lg:mb-4">
+          I transform concepts into intuitive and visually compelling
+          interfaces. Here's some of my projects to prove it.
+        </p>
         <ProjectLink
           title="Cheeky's Cannabis Merchants"
           imgLink="cheekys.png"
-          link="case-studies/cheekys"
+          link="projects/cheekys"
           chips={["Interface Design", "Interaction Design"]}
         >
           Offering novice online cannabis shoppers at Cheeky’s Cannabis
