@@ -74,6 +74,10 @@ body {
   .body-text {
   }
 
+  .icon-link {
+    @apply text-neutral-400 hover:text-neutral-50 focus:text-neutral-50 transition-colors;
+  }
+
   .chip {
     @apply bg-neutral-800 w-fit py-1 px-3 rounded-full text-sm text-neutral-300;
   }
