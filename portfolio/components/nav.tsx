@@ -6,10 +6,10 @@ export default function Nav() {
       <div className="h-[1px] w-full bg-gradient-to-r from-neutral-950/0 via-neutral-600 to-neutral-950/0"></div>
       <nav className="px-4 flex flex-row justify-center">
         <HeaderLink text="Home" link="/"></HeaderLink>
-        <HeaderLink text="About" link=""></HeaderLink>
-        <HeaderLink text="Projects" link=""></HeaderLink>
-        <HeaderLink text="Awards" link=""></HeaderLink>
-        <HeaderLink text="Resume" link=""></HeaderLink>
+        <HeaderLink text="About" link="/about"></HeaderLink>
+        <HeaderLink text="Projects" link="/projects"></HeaderLink>
+        <HeaderLink text="Awards" link="/awards"></HeaderLink>
+        <HeaderLink text="Resume" link="/resume"></HeaderLink>
       </nav>
     </header>
   );

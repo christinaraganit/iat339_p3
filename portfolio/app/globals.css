@@ -19,8 +19,12 @@ body {
 }
 
 @layer components {
+  abbr {
+    @apply underline decoration-neutral-400 underline-offset-1 decoration-dotted;
+  }
+
   main {
-    @apply w-full flex flex-col gap-16 lg:gap-32 px-6 lg:px-20 max-w-[80rem] text-center;
+    @apply w-full flex flex-col gap-16 mt-40 lg:gap-32 px-6 lg:px-20 max-w-[80rem] text-center min-h-[calc(100vh-10rem)];
   }
 
   main.project {
@@ -40,7 +44,7 @@ body {
   }
 
   .title-2 {
-    @apply text-2xl xl:text-3xl font-bold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-3 tracking-tighter;
+    @apply text-2xl xl:text-3xl font-semibold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-3 tracking-tighter;
   }
 
   .title-3 {
@@ -49,6 +53,10 @@ body {
 
   .title-4 {
     @apply text-lg xl:text-xl font-bold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-2 tracking-tighter;
+  }
+
+  .title-5 {
+    @apply text-base xl:text-lg font-bold bg-gradient-to-b from-neutral-200 to-neutral-400 inline-block text-transparent bg-clip-text pb-2 tracking-tighter;
   }
 
   .headline {
@@ -71,7 +79,7 @@ body {
   }
 
   nav a.link {
-    @apply text-sm font-medium text-neutral-400 hover:text-purple-300 transition-colors;
+    @apply text-sm font-medium text-neutral-400 hover:text-teal-300 focus:text-teal-300 transition-colors;
   }
 
   .document-link {
@@ -80,5 +88,9 @@ body {
 
   .divider {
     @apply h-[1px] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950;
+  }
+
+  ul li.award, ul li span.award {
+    @apply font-medium text-neutral-300;
   }
 }

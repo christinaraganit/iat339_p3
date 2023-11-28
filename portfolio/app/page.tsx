@@ -8,7 +8,7 @@ import ProjectLink from "@/components/project-link";
 export default function Home() {
   return (
     <main id="landing">
-      <header className="max-h-screen h-screen lg:h-[calc(100vh-8rem)] mt-0 pt-0 flex flex-col items-center justify-center justify-between">
+      <header className="max-h-screen h-screen lg:h-[calc(100vh-18rem)] mt-0 pt-0 flex flex-col items-center justify-center justify-between">
         <div className="flex flex-col items-center justify-center h-full">
           <h1 className="large-title mb-2">
             I'm Christina Raganit, a user experience designer who writes code
@@ -23,36 +23,35 @@ export default function Home() {
 
           <Button text="View my projects" link="#projects"></Button>
         </div>
-        <div className="absolute bottom-0 h-[32vh] w-full">
-          {/* <div className="relative h-full w-auto bg-gradient-radial from-neutral-900 via-neutral-950 to-neutral-950 overflow-hidden -z-100"></div>
-          <div className="relative h-80% rounded-full bg-neutral-950"></div> */}
-        </div>
       </header>
       <section id="projects" className="scroll-mt-40">
-        <h2 className="headline pb-1">Projects</h2>
-        <p className="title-1 mb-2 lg:mb-4">
-          I transform concepts into intuitive and visually compelling
-          interfaces. Here's some of my projects to prove it.
-        </p>
-        <ProjectLink
-          title="Cheeky's Cannabis Merchants"
-          imgLink="cheekys.png"
-          link="projects/cheekys"
-          chips={["Interface Design", "Interaction Design"]}
-        >
-          Offering novice online cannabis shoppers at Cheeky’s Cannabis
-          Merchants a digital shopping journey that's as approachable and
-          inviting as the in-store experience.
-        </ProjectLink>
+        <h2 className="title-1 mb-2.5">Projects</h2>
+        <div className="grid gap-4 lg:gap-8">
+          <ProjectLink
+            title="Cheeky's Cannabis Merchants"
+            imgLink="cheekys.png"
+            link="projects/cheekys"
+            chips={["Interface Designer", "Interaction Designer"]}
+          >
+            Offering novice online cannabis shoppers at Cheeky’s Cannabis
+            Merchants a digital shopping journey that's as approachable and
+            inviting as the in-store experience.
+          </ProjectLink>
+          <ProjectLink
+            title="Chow Now"
+            imgLink="cheekys.png"
+            link="projects/cheekys"
+            chips={["Interface Designer", "Frontend Developer"]}
+          >
+            Offering novice online cannabis shoppers at Cheeky’s Cannabis
+            Merchants a digital shopping journey that's as approachable and
+            inviting as the in-store experience.
+          </ProjectLink>
+        </div>
       </section>
 
       <section id="testimonials">
-        <h2 className="headline pb-1">Testimonials</h2>
-        <p className="title-1 mb-2 lg:mb-4">
-          I collaborate seamlessly with design and development teams to win
-          hackathons and ship projects. Here's what some of my teammates are
-          saying about me.
-        </p>
+        <h2 className="title-1 mb-2">Testimonials</h2>
         <div
           id="testimonials-container"
           className="grid md:grid-cols-3 gap-4 lg:gap-6"
