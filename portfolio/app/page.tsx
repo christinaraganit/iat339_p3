@@ -3,50 +3,172 @@ import Testimonial from "@/components/testimonial";
 import Link from "@/components/link";
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 import Button from "@/components/button";
+import Experience from "@/components/experience";
 import ProjectLink from "@/components/project-link";
 
 export default function Home() {
   return (
     <main id="landing">
-      <header className="max-h-screen h-screen lg:h-[calc(100vh-18rem)] mt-0 pt-0 flex flex-col items-center justify-center justify-between">
-        <div className="flex flex-col items-center justify-center h-full">
-          <h1 className="large-title mb-2">
-            I'm Christina Raganit, a user experience designer who writes code
-            and creates design systems.
+      <header className="mt-0 pt-0 flex flex-col">
+        <div className="flex flex-col h-full">
+          <h1 className="large-title mb-2 max-w-4xl">
+            I’m Christina Raganit, a Vancouver-based product/UX designer who
+            writes code.
           </h1>
-          <p className="lead text-neutral-400 mb-4">
-            Pursuing a BSci in Interactive Arts and Technology at{" "}
-            <Link text="Simon Fraser University" link=""></Link> and leading the
-            design team at <Link text="SFU Surge" link=""></Link>. Currently
-            seeking a UX Design internship for Summer 2024.
-          </p>
+          <img
+            src="headshot.png"
+            className="h-20 w-20 mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
+          ></img>
 
-          <Button text="View my projects" link="#projects"></Button>
+          <p className="text-2xl tracking-tight text-neutral-400 mb-3">
+            I'm a{" "}
+            <span className="font-medium text-neutral-200">
+              detail-oriented
+            </span>{" "}
+            designer with a{" "}
+            <span className="font-medium text-neutral-200">
+              technical background
+            </span>{" "}
+            and two years of industry experience. I collaborate effectively with
+            product and development teams to design{" "}
+            <span className="font-medium text-neutral-200">
+              user-centric solutions
+            </span>{" "}
+            that align with business goals and technical requirements.
+          </p>
         </div>
       </header>
       <section id="projects" className="scroll-mt-40">
-        <h2 className="title-1 mb-2.5">Projects</h2>
+        <h2 className="title-1 mb-2">Featured projects</h2>
         <div className="grid gap-4 lg:gap-8">
           <ProjectLink
-            title="Cheeky's Cannabis Merchants"
-            imgLink="cheekys.png"
-            link="projects/cheekys"
-            chips={["Interface Designer", "Interaction Designer"]}
-          >
-            Offering novice online cannabis shoppers at Cheeky’s Cannabis
-            Merchants a digital shopping journey that's as approachable and
-            inviting as the in-store experience.
-          </ProjectLink>
-          <ProjectLink
             title="Chow Now"
-            imgLink="cheekys.png"
-            link="projects/cheekys"
-            chips={["Interface Designer", "Frontend Developer"]}
+            imgLink="/projects/chow-now/chow-now-1600x900.png"
+            link="projects/chow-now"
+            chips={[
+              "Interface Designer",
+              "Frontend Developer",
+              "Hackathon Winner",
+            ]}
           >
-            Offering novice online cannabis shoppers at Cheeky’s Cannabis
-            Merchants a digital shopping journey that's as approachable and
-            inviting as the in-store experience.
+            Designed and developed a mobile app that offers a discreet way for
+            victims of domestic violence to confidentially report incidents of
+            abuse to local authorities, ensuring their safety while avoiding
+            suspicion from their abusers.
           </ProjectLink>
+        </div>
+      </section>
+
+      <section className="text-left grid lg:grid-cols-2 gap-16 lg:gap-32">
+        <div>
+          <h2 className="title-1 mb-2">Experience</h2>
+          <div className="flex flex-col gap-5">
+            <Experience
+              role="UX Designer"
+              company="Felix Payment Systems"
+              startDate="Sep 2022"
+              endDate="Sep 2023"
+            >
+              Wrote design system documentation and guidelines to be used across
+              product, development, and QA teams.
+            </Experience>
+            <Experience
+              role="UX Design Intern"
+              company="Felix Payment Systems"
+              startDate="May 2022"
+              endDate="Sep 2022"
+            >
+              Redesigned Felix.Portal and Felix.Terminal. Established the design
+              system for Felix Payment Systems.
+            </Experience>
+            <Experience
+              role="UI Designer"
+              company="Karma Well Health Technologies"
+              startDate="Aug 2021"
+              endDate="May 2022"
+            >
+              Established user interface guidelines and wrote frontend code
+              using Next.js and SASS.
+            </Experience>
+            <Experience
+              role="QA Tester"
+              company="Keywords Studios"
+              startDate="May 2020"
+              endDate="Sep 2020"
+            >
+              Performed stability testing for FIFA 21 Pro Clubs. Identified
+              gameplay issues and wrote bug reports.
+            </Experience>
+          </div>
+        </div>
+        <div>
+          <h2 className="title-1 mb-2">Awards</h2>
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-row gap-6">
+              <div className="flex flex-col pt-0.5 gap-1.5 items-center w-8">
+                <h3 className="text-sm text-neutral-500">2023</h3>
+                <div className="w-[0.063rem] block rounded-full h-full bg-neutral-800"></div>
+              </div>
+              <ul className="list-none text-neutral-400 flex flex-col gap-2.5">
+                <li className="award">
+                  Nancy Morrison and Fraser Green Special Abilities Award
+                </li>
+                <li>
+                  <span className="award">Undergraduate Open Scholarship</span>,
+                  Simon Fraser University
+                </li>
+                <li>
+                  <span className="award">2nd Place</span>, StormHacks
+                </li>
+                <li>
+                  <span className="award">Best UI/UX Design</span>, StormHacks
+                </li>
+                <li>
+                  <span className="award">1st Place</span>, Eunoia UX Hackathon
+                </li>
+                <li>
+                  <span className="award">1st Place</span>, cmd-f
+                </li>
+                <li>
+                  <span className="award">Best Design</span>, cmd-f
+                </li>
+                <li>
+                  <span className="award">Judges' Choice Award</span>, RootHacks
+                </li>
+                <li>
+                  <span className="award">2nd Place</span>, HackED
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-row gap-6">
+              <div className="flex flex-col pt-0.5 gap-1.5 items-center w-8">
+                <h3 className="text-sm text-neutral-500">2021</h3>
+                <div className="w-[0.063rem] block rounded-full h-full bg-neutral-800"></div>
+              </div>
+              <ul className="list-none text-neutral-400 flex flex-col gap-2.5">
+                <li>
+                  <span className="award">
+                    Computer Systems Award in Tech Entrepreneurship
+                  </span>
+                  , British Columbia Institute of Technology
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-row gap-6">
+              <div className="flex flex-col pt-0.5 gap-1.5 items-center w-8">
+                <h3 className="text-sm text-neutral-500">2019</h3>
+                <div className="w-[0.063rem] block rounded-full h-full bg-neutral-800"></div>
+              </div>
+              <ul className="list-none text-neutral-400 flex flex-col gap-2.5">
+                <li>
+                  <span className="award">President's Entrance Award</span>,
+                  British Columbia Institute of Technology
+                </li>
+                <li className="award">BC Excellence Award</li>
+                <li className="award">District Authority Award</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -54,7 +176,7 @@ export default function Home() {
         <h2 className="title-1 mb-2">Testimonials</h2>
         <div
           id="testimonials-container"
-          className="grid md:grid-cols-3 gap-4 lg:gap-6"
+          className="grid md:grid-cols-3 gap-4 lg:gap-8"
         >
           <div className="testimonial-column">
             <Testimonial

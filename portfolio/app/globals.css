@@ -24,7 +24,7 @@ body {
   }
 
   main {
-    @apply w-full flex flex-col gap-16 mt-40 lg:gap-32 px-6 lg:px-20 max-w-[80rem] text-center min-h-[calc(100vh-10rem)];
+    @apply w-full flex flex-col gap-16 mt-40 lg:gap-32 px-6 lg:px-20 max-w-[80rem] min-h-[calc(100vh-10rem)];
   }
 
   main.project {
@@ -83,7 +83,7 @@ body {
   }
 
   nav a.link {
-    @apply text-sm font-medium text-neutral-400 hover:text-teal-300 focus:text-teal-300 transition-colors;
+    @apply text-sm font-medium text-neutral-300 hover:text-teal-300 focus:text-teal-300 transition-colors;
   }
 
   .document-link {

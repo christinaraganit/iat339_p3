@@ -7,13 +7,13 @@ export default function HeaderLink(props: Props) {
   return (
     <a
       href={props.link}
-      className="w-fit group/link pointer-events-auto"
+      className="w-fit group/link pointer-events-auto block"
       tabIndex={0}
     >
-      <span className="p-2 block text-neutral-50 font-medium text-sm group-hover/link:text-teal-300 transition-colors">
+      <span className="p-2 block text-neutral-300 font-medium text-sm group-hover/link:text-teal-300 transition-colors">
         {props.text}
       </span>
-      <div className="h-[2px] opacity-0 w-full bg-gradient-to-r from-neutral-950 via-teal-400 to-neutral-950 group-hover/link:opacity-50 transition-opacity"></div>
+      <div className="h-[0.125rem] opacity-0 w-full bg-gradient-to-r from-neutral-950 via-teal-400 to-neutral-950 group-hover/link:opacity-50 transition-opacity"></div>
     </a>
   );
 }

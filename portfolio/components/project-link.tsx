@@ -12,9 +12,11 @@ export default function ProjectLink(props: Props) {
   return (
     <a
       href={props.link}
-      className="group/project-link transition-color block py-[0.075rem] px-[0.1rem] rounded-lg lg:rounded-3xl bg-gradient-to-r from-neutral-700/30 via-neutral-700 to-neutral-700/30 hover:from-neutral-700/30 hover:via-neutral-400 hover:to-neutral-700/30 hover:scale-1025 transition-transform"
+      className="group/project-link transition-color block pt-[0.075rem] px-[0.1rem] rounded-lg lg:rounded-3xl bg-gradient-to-r from-neutral-700/30 via-neutral-600 to-neutral-700/30 
+      hover:from-neutral-700/30 hover:via-neutral-400 hover:to-neutral-700/30
+      focus:from-neutral-700/30 focus:via-neutral-400 focus:to-neutral-700/30 focus:scale-1025 transition-transform"
     >
-      <div className="text-left p-6 pb-0 lg:p-8 xl:p-10 lg:pb-0 xl:pb-0 rounded-lg lg:rounded-3xl bg-neutral-900 group-hover/project-link:bg-neutral-900/90">
+      <div className="text-left p-6 pb-0 lg:p-8 xl:p-10 rounded-lg lg:rounded-3xl bg-neutral-900 group-hover/project-link:bg-neutral-900/90">
         <div className="grid lg:grid-cols-2 lg:gap-4">
           <div className="w-full">
             <h3 className="title-2">{props.title}</h3>
@@ -35,7 +37,7 @@ export default function ProjectLink(props: Props) {
           </div>
         </div>
         <div className="mt-4 lg:mt-6 xl:mt-8">
-          <img src={props.imgLink}></img>
+          <img src={props.imgLink} className="rounded-md"></img>
         </div>
       </div>
     </a>

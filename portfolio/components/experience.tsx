@@ -3,8 +3,8 @@ interface Props {
   company: string;
   startDate: string;
   endDate: string;
-  children: any;
-  skills: string[];
+  children?: any;
+  skills?: string[];
 }
 
 export default function Experience(props: Props) {
@@ -21,11 +21,17 @@ export default function Experience(props: Props) {
         <span className="text-sm text-neutral-400 block order-first mb-1.5 font-light">
           {props.startDate}–{props.endDate}
         </span>
-        <p className="text-neutral-400 mt-1">{props.children}</p>
-        <div className="flex inline-flex gap-2 flex-wrap">
-          {props.skills.map((skill) => (
-            <div className="chip">{skill}</div>
-          ))}
+        <p className="text-neutral-400 mt-0.5 pb-0">{props.children}</p>
+        <div className="inline-flex gap-2 flex-wrap">
+          {typeof props.skills === "undefined" ? (
+            <div></div>
+          ) : (
+            props.skills.map((skill) => (
+              <div className="chip" key={skill}>
+                {skill}
+              </div>
+            ))
+          )}
         </div>
       </div>
     </div>
