@@ -63,7 +63,7 @@ export default function Cheekys() {
             </div>
             <div>
               <h3 className="headline">Project</h3>
-              <p>February 7–8, 2023 (4 weeks)</p>
+              <p>February 7–March 8, 2023 (4 weeks)</p>
             </div>
           </div>
         </div>
