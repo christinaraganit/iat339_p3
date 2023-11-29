@@ -16,28 +16,50 @@ export default function ChowNow() {
       </section>
       <section className="text-left">
         <h2 className="title-3 mb-2">Overview</h2>
-        <div className="grid md:grid-cols-3 md:gap-8 lg:grid-cols-4 lg:gap-12">
-          <div>
-            <h3 className="headline pb-1.5">My roles</h3>
-            <p>User Interface Designer, Frontend Developer</p>
-          </div>
-          <div>
-            <h3 className="headline pb-1.5">Teammates</h3>
-            <p>Eunsaem Lee (Backend Developer)</p>
-          </div>
-          <div>
-            <h3 className="headline pb-1.5">Event</h3>
-            <p>March 11–12, 2023 (23 hours) | cmd-f 2023</p>
-          </div>
-          <div>
-            <h3 className="headline pb-1.5">Achievements</h3>
-            <p>
-              1st Place Winner (out of 44 teams) and Best UI/UX Design Award
+        <div className="grid lg:grid-cols-3 lg:gap-16">
+          <div className="lg:col-span-2">
+            <h3 className="headline pb-1.5">Summary</h3>
+            <p className="text-neutral-300">
+              In the span of 23 hours, Eunsaem and I designed and developed a
+              minimum viable product (MVP) for Chow Now. Though it might look
+              like your typical food delivery app, the app actually offers a
+              discreet way for victims of domestic violence to report incidents
+              of abuse while avoiding suspicion from their abusers.
             </p>
+            <p>
+              I designed the visual language of the app, creating all
+              wireframes, mockups, prototypes, and presentation material.
+              Additionally, I also coded the frontend with React Native and
+              worked with Eunsaem to integrate UI components into the backend.
+            </p>
+            <p>
+              After presenting our project to the panel of judges at cmd-f,
+              Eunsaem and I were awarded the Best UI/UX Design Award and the 1st
+              place prize at cmd-f 2023.
+            </p>
+          </div>
+          <div className="grid">
+            <div>
+              <h3 className="headline pb-1.5">My roles</h3>
+              <p>User Interface Designer, Frontend Developer</p>
+            </div>
+            <div>
+              <h3 className="headline pb-1.5">Teammates</h3>
+              <p>Eunsaem Lee (Backend Developer)</p>
+            </div>
+            <div>
+              <h3 className="headline pb-1.5">Event</h3>
+              <p>March 11–12, 2023 (23 hours) | cmd-f 2023</p>
+            </div>
+            <div>
+              <h3 className="headline pb-1.5">Achievements</h3>
+              <p>
+                1st Place Winner (out of 44 teams) and Best UI/UX Design Award
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <div className="divider"></div>
       <section className="text-left">
         <h2 className="headline pb-3">Content warning</h2>
         <div className="grid lg:grid-cols-2 gap-12">
@@ -67,7 +89,6 @@ export default function ChowNow() {
           </div>
         </div>
       </section>
-      <div className="divider"></div>
       <section className="text-left">
         <h2 className="headline pb-3">Problem statement</h2>
         <p className="title-2">
@@ -82,7 +103,6 @@ export default function ChowNow() {
           wonder…
         </p>
       </section>
-      <div className="divider"></div>
       <section className="text-left">
         <h2 className="headline pb-3">Framing</h2>
         <p className="title-1">
@@ -91,7 +111,6 @@ export default function ChowNow() {
           necessary aid?
         </p>
       </section>
-      <div className="divider"></div>
     </main>
   );
 }
