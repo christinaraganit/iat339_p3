@@ -32,7 +32,11 @@ export default function ProjectLink(props: Props) {
             </p>
             <span className="flex text-neutral-400 flex-row items-center gap-2">
               <span className="text-sm">Read case study</span>
-              <ArrowLongRightIcon width={20} height={20}></ArrowLongRightIcon>
+              <ArrowLongRightIcon
+                width={20}
+                height={20}
+                className="group-hover/project-link:translate-x-1.5 group-focus/project-link:translate-x-1.5   transition-transform"
+              ></ArrowLongRightIcon>
             </span>
           </div>
         </div>

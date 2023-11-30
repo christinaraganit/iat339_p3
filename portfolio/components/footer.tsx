@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-neutral-900/60 w-full flex flex-col items-center mt-40">
-      <div className="divider"></div>
+    <footer className="bg-neutral-950/60 w-full flex flex-col items-center mt-[7rem]">
+      <div className="divider max-w-[80rem]"></div>
       <div className="p-6 lg:px-20 w-full max-w-[80rem] grid md:grid-cols-2 lg:gap-8">
         <div>
           <p className="max-w-full md:max-w-sm text-sm text-center md:text-left text-neutral-400 order-last md:order-first pb-0">

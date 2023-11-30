@@ -2,7 +2,7 @@ import HeaderLink from "./header-link";
 
 export default function Nav() {
   return (
-    <header className="nav bg-neutral-950/60 w-full fixed flex flex-col items-center h-[3rem] backdrop-blur-md border-b border-neutral-800/60">
+    <header className="nav bg-neutral-950/90 w-full fixed z-10 flex flex-col items-center h-[3rem] backdrop-blur-md border-b border-neutral-800/60">
       <div className="px-6 lg:px-20 w-full h-full flex items-center max-w-[80rem] grid md:grid-cols-2 lg:gap-8">
         <div>
           <img src="../signature.svg" className="h-6"></img>
