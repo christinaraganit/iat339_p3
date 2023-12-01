@@ -35,16 +35,16 @@ export default function Testimonial(props: Props) {
             <a
               href={props.commentLink}
               className="inline-flex gap-1.5 items-center underline underline-offset-4 decoration-neutral-400 text-xs
-               focus:decoration-teal-400
-               hover:decoration-teal-400 group/link transition-colors"
+               focus:decoration-blue-400
+               hover:decoration-blue-400 group/link transition-colors"
             >
-              <span className="text-sm text-neutral-400 pb-0 group-hover/link:text-teal-400 transition-colors">
+              <span className="text-sm text-neutral-400 pb-0 group-hover/link:text-blue-400 transition-colors">
                 View comment on LinkedIn
               </span>
               <ArrowTopRightOnSquareIcon
                 width={20}
                 height={20}
-                className="text-neutral-400 group-hover/link:text-teal-400 group-focus/link:text-teal-400 transition-colors"
+                className="text-neutral-400 group-hover/link:text-blue-400 group-focus/link:text-blue-400 transition-colors"
               ></ArrowTopRightOnSquareIcon>
             </a>
           )}

@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <header className="nav bg-neutral-950/90 w-full hidden fixed z-10 sm:flex flex-col items-center h-[3rem] backdrop-blur-md border-b border-neutral-800/60">
       <div className="px-6 lg:px-20 w-full h-full flex items-center lg:max-w-[80rem] grid sm:grid-cols-2 lg:gap-8">
-        <div>
+        <a href="/" aria-label="Home page">
           <svg
             width="24"
             height="24"
@@ -17,7 +17,7 @@ export default function Nav() {
               fill="#ffffff"
             />
           </svg>
-        </div>
+        </a>
         <div>
           <nav
             className="flex flex-col sm:flex-row items-center h-full w-full gap-4 justify-end pb-6 sm:pb-0"
@@ -26,13 +26,13 @@ export default function Nav() {
             <a href="/" className="link">
               Home
             </a>
-            <a href="/projects" className="link">
+            <a href="/#projects" className="link">
               Projects
             </a>
             <a href="/about" className="link">
               About
             </a>
-            <a href="/awards" className="link">
+            <a href="/#awards" className="link">
               Awards
             </a>
             <a

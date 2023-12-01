@@ -23,9 +23,9 @@ export default function Button(props: Props) {
       <a
         href={props.link}
         className="group-hover/button block w-fit py-[0.0625rem] pt-[0.0625rem] pb-0 rounded-lg 
-                  bg-gradient-to-r from-neutral-800/60 via-teal-500 to-neutral-800/60 hover/button:cursor-pointer hover/button:via-teal-400"
+                  bg-gradient-to-r from-neutral-800/60 via-blue-500 to-neutral-800/60 hover/button:cursor-pointer hover/button:via-blue-400"
       >
-        <div className="text-teal-50 tracking-tight block px-4 py-2 bg-teal-800/60 hover/button:bg-teal-800/60 hover/button:cursor-pointer rounded-md transition-colors hover/button:shadow-lg hover/button:shadow-teal-400/[18%] transition-shadow">
+        <div className="text-blue-50 tracking-tight block px-4 py-2 bg-blue-800/60 hover/button:bg-blue-800/60 hover/button:cursor-pointer rounded-md transition-colors hover/button:shadow-lg hover/button:shadow-blue-400/[18%] transition-shadow">
           {props.text}
         </div>
       </a>

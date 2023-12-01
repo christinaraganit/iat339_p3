@@ -15,8 +15,8 @@ export default function Home() {
             I’m Christina Raganit, a product designer who writes code.
           </h1>
           <img
-            width={800}
-            height={800}
+            width={200}
+            height={200}
             src="headshot.png"
             alt="A woman with curled bangs and round glasses smiles at the camera, looking very professional"
             className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
 
       <section className="text-left grid lg:grid-cols-2 gap-16 lg:gap-32">
-        <div>
+        <div id="experience" className="scroll-mt-40">
           <h2 className="title-1 lg:mb-2">Experience</h2>
           <div className="flex flex-col gap-5">
             <Experience
@@ -98,7 +98,7 @@ export default function Home() {
             </Experience>
           </div>
         </div>
-        <div>
+        <div id="awards" className="scroll-mt-40">
           <h2 className="title-1 lg:mb-2">Awards</h2>
           <div className="flex flex-col gap-5">
             <div className="flex flex-row gap-6">
@@ -169,7 +169,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="testimonials">
+      <section id="testimonials" className="scroll-mt-40">
         <h2 className="title-1 lg:mb-2">Testimonials</h2>
         <div
           id="testimonials-container"

@@ -162,7 +162,8 @@ export default function ChowNow() {
         <div className="grid gap-4 lg:grid-cols-2 lg:gap-6">
           <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
             <h3 className="title-3">
-              The disturbing relationship between domestic violence and sports
+              There's a disturbing relationship between domestic violence and
+              sports.
             </h3>
             <div className="rounded-full p-[0.0625rem] bg-gradient-to-b from-neutral-600 to-neutral-600/30 w-fit mb-5 order-first">
               <div className="bg-neutral-900 p-3 rounded-full">

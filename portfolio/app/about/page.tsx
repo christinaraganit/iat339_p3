@@ -18,14 +18,18 @@ export default function About() {
           <h1 className="large-title mb-1.5 lg:mb-0 lg:pb-5 block">
             Christina Raganit
           </h1>
-          <p className="title-4">User Experience Designer</p>
+          <p className="title-4">Product Designer</p>
           <p className="text-neutral-400 mb-4">
-            I write code, design visually compelling interfaces, and build
-            design systems.
+            I design visually appealing and user-centric interfaces, write code
+            for fun, and I love to read.
           </p>
 
-          <div className="flex flex-row gap-4">
-            <a href="" className="icon-link">
+          <div className="flex flex-row gap-4 items-center">
+            <a
+              href="https://github.com/christinaraganit"
+              className="icon-link"
+              aria-label="Christina's GitHub"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -38,11 +42,15 @@ export default function About() {
                 />
               </svg>
             </a>
-            <a href="" className="icon-link">
+            <a
+              href="https://www.linkedin.com/in/christinaraganit/"
+              className="icon-link"
+              aria-label="Christina's LinkedIn"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="28"
+                height="28"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -51,7 +59,11 @@ export default function About() {
                 />
               </svg>
             </a>
-            <a href="" className="icon-link">
+            <a
+              href="https://devpost.com/christinaraganit"
+              className="icon-link"
+              aria-label="Christina's DevPost"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -64,7 +76,11 @@ export default function About() {
                 />
               </svg>
             </a>
-            <a href="" className="icon-link">
+            <a
+              href="mailto:christinaraganit@gmail.com"
+              aria-label="Christina's Email"
+              className="icon-link"
+            >
               <EnvelopeOpenIcon width={24} height={24}></EnvelopeOpenIcon>
             </a>
           </div>
@@ -107,17 +123,6 @@ export default function About() {
             </li>
           </ul>
         </section>
-      </section>
-
-      <section>
-        <h2 className="title-1 max-w-4xl mb-4">
-          Do you want to work on something cool with me or do you simply just
-          want to say hi?
-        </h2>
-        <div className="flex justify-center items-center w-full flex-wrap gap-4">
-          <Button link="" text="Connect on LinkedIn"></Button>
-          <Button link="" text="Send me an email"></Button>
-        </div>
       </section>
     </main>
   );
