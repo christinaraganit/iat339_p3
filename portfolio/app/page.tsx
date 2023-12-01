@@ -177,6 +177,7 @@ export default function Home() {
               firstName="Devon"
               lastName="Friend"
               title="Student at University of British Columbia"
+              imgLink="devon-friend.jpg"
             >
               What does it take to bring your platform to the next level by
               leveraging exceptional UI/UX design? Whatever the answer might be,
@@ -186,6 +187,7 @@ export default function Home() {
               firstName="Ray"
               lastName="Gong"
               title="Software Developer Intern at Blackberry"
+              imgLink="ray-gong-100x100.png"
             >
               Christina is a very talented designer with a vast skillset. She
               excels at rapidly producing prototypes to present her ideas, both
@@ -198,13 +200,16 @@ export default function Home() {
               firstName="Eric"
               lastName="Dam"
               title="Software Developer at Harris Computers"
+              imgLink="eric-dam.jpg"
             >
-              Christina is among the best UI/UX designers I know. Her designs
-              are very intuitive, visually pleasing and make sense.
+              Christina is a designer-developer powerhouse. She designed and
+              developed my portfolio website, and I can attest to her endless
+              creativity and technical skills.
             </Testimonial>
             <Testimonial
               firstName="Jason"
               lastName="Lee"
+              imgLink="jason-lee.jpg"
               title="Team Lead at Felix Payment Systems"
             >
               Christina has always brought a new perspective to the product team
@@ -215,6 +220,7 @@ export default function Home() {
           </div>
           <div className="testimonial-column">
             <Testimonial
+              imgLink="kurt-milan.jpg"
               firstName="Kurt"
               lastName="Milan"
               title="Team Lead at Felix Payment Systems"
@@ -226,8 +232,9 @@ export default function Home() {
               team.
             </Testimonial>
             <Testimonial
+              imgLink="simon-wong-chung.jpg"
               firstName="Simon"
-              lastName="Wong"
+              lastName="Wong Chung"
               title="Student at Simon Fraser University"
             >
               One of Christina’s standout quality is her meticulous attention to
