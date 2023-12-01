@@ -48,7 +48,11 @@ export default function ProjectLink(props: Props) {
           </div>
         </div>
         <div className="mt-4 lg:mt-6 xl:mt-8">
-          <img src={props.imgLink} className="rounded-md"></img>
+          <img
+            src={props.imgLink}
+            className="rounded-md"
+            alt={`Mockups of the project ${props.title}`}
+          ></img>
         </div>
       </div>
     </a>

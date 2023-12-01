@@ -16,7 +16,13 @@ export default function Testimonial(props: Props) {
     <div className="testimonial border border-neutral-800/60 bg-neutral-900/30 rounded-xl p-4 lg:px-7 lg:py-6 text-left mb-4 md:mb-0 xl:mb-6 last:mb-0 flex flex-col">
       <div className="flex gap-4 order-last">
         <div className="w-[2.75rem] pt-1">
-          <img src={props.imgLink} className="w-full rounded-full"></img>
+          <img
+            src={props.imgLink}
+            className="w-full rounded-full"
+            alt={`LinkedIn profile picture of ${props.firstName} ${props.lastName}`}
+            width={100}
+            height={100}
+          ></img>
         </div>
 
         <div>

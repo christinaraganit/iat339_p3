@@ -19,7 +19,10 @@ export default function Nav() {
           </svg>
         </div>
         <div>
-          <nav className="flex flex-col sm:flex-row items-center h-full w-full gap-4 justify-end pb-6 sm:pb-0">
+          <nav
+            className="flex flex-col sm:flex-row items-center h-full w-full gap-4 justify-end pb-6 sm:pb-0"
+            aria-label="Header"
+          >
             <a href="/" className="link">
               Home
             </a>

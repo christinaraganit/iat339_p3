@@ -8,14 +8,17 @@ import ProjectLink from "@/components/project-link";
 
 export default function Home() {
   return (
-    <main id="landing" className="">
+    <main id="landing">
       <section className="mt-0 pt-0 flex flex-col">
         <div className="flex flex-col h-full">
           <h1 className="large-title mb-2 lg:mb-1 max-w-4xl">
             I’m Christina Raganit, a product designer who writes code.
           </h1>
           <img
+            width={800}
+            height={800}
             src="headshot.png"
+            alt="A woman with curled bangs and round glasses smiles at the camera, looking very professional"
             className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
 

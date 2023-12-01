@@ -9,8 +9,11 @@ export default function About() {
       <section className="grid lg:grid-cols-2 text-left gap-16 lg:gap-32">
         <section>
           <img
-            src="placeholder.png"
-            className="w-16 lg:w-20 aspect-square rounded-full mb-6 lg:mb-8 outline outline-1 outline-neutral-700 outline-offset-4 shadow-neutral-800 shadow-lg"
+            width={200}
+            height={200}
+            src="headshot.png"
+            alt="A woman with curled bangs and round glasses smiles at the camera, looking very professional"
+            className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
           <h1 className="large-title mb-1.5 lg:mb-0 lg:pb-5 block">
             Christina Raganit

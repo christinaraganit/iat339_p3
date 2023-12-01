@@ -9,20 +9,26 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <nav className="flex flex-col md:flex-row items-center h-full w-full gap-4 justify-end pb-6 md:pb-0">
+          <nav
+            className="flex flex-col md:flex-row items-center h-full w-full gap-4 justify-end pb-6 md:pb-0"
+            aria-label="Footer"
+          >
             <a href="/" className="link">
               Home
             </a>
-            <a href="" className="link">
+            <a href="/projects" className="link">
               Projects
             </a>
-            <a href="#" className="link">
+            <a href="/about" className="link">
               About
             </a>
-            <a href="#" className="link">
+            <a href="/awards" className="link">
               Awards
             </a>
-            <a href="#" className="link">
+            <a
+              href="https://drive.google.com/file/d/1XdjiOlwxWced9ZCvzwyLcPiZANGwptAV/view"
+              className="link"
+            >
               Resume
             </a>
           </nav>
