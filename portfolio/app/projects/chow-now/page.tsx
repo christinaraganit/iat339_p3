@@ -29,8 +29,6 @@ export default function ChowNow() {
           ></source>
 
           <img
-            width={800}
-            height={1621}
             src="/projects/chow-now/header.png"
             alt="Screens from Chow Now app"
           ></img>
@@ -242,7 +240,7 @@ export default function ChowNow() {
                 width={1372}
                 height={1630}
                 src="/projects/chow-now/user-flow-mobile.png"
-                alt="The main user flow of Chow Now. If the user is in a dangerous situation, they can use Chow Now to pretend as if they are placing an online order. They can select any restaurant"
+                alt="The main user flow of Chow Now."
               ></img>
             </picture>
           </div>
@@ -437,6 +435,7 @@ export default function ChowNow() {
               width={1920}
               height={1080}
               src="/projects/chow-now/highlight-2-1920x1080.png"
+              alt="Chow Now asking permission to access user's location"
               className="rounded-lg"
             ></img>
             <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
@@ -454,6 +453,7 @@ export default function ChowNow() {
               width={1920}
               height={1080}
               src="/projects/chow-now/highlight-1-1920x1080.png"
+              alt="Feature to add an emergency contact in Chow Now"
               className="rounded-lg"
             ></img>
             <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
@@ -471,6 +471,7 @@ export default function ChowNow() {
               width={1920}
               height={1080}
               src="/projects/chow-now/highlight-3-1920x1080.png"
+              alt="Chow Now looking like a typical takeout app, nothing suspicious here"
               className="rounded-lg"
             ></img>
             <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
@@ -487,6 +488,7 @@ export default function ChowNow() {
             <img
               width={1920}
               height={1080}
+              alt="Toggling between different views on Chow Now"
               src="/projects/chow-now/highlight-4-1920x1080.png"
               className="rounded-lg"
             ></img>
@@ -526,7 +528,13 @@ export default function ChowNow() {
             </p>
           </div>
           <div className="order-first lg:order-last">
-            <img src="/projects/chow-now/demo.jpg" className="rounded-lg"></img>
+            <img
+              src="/projects/chow-now/demo.png"
+              alt="Christina and Eunsaem presentng at cmd-f"
+              className="rounded-lg"
+              width={800}
+              height={451}
+            ></img>
             <div className="flex flex-row gap-2 my-2 items-center">
               <div className="chip h-fit">
                 <h3>Image</h3>

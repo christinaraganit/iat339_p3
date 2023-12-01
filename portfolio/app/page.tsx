@@ -18,7 +18,7 @@ export default function Home() {
             width={200}
             height={200}
             src="headshot.png"
-            alt="A woman with curled bangs and round glasses smiles at the camera, looking very professional"
+            alt="Christina Raganit wearing round glasses, her bangs are curled"
             className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
 
