@@ -7,7 +7,7 @@ interface Props {
 
 export default function Testimonial(props: Props) {
   return (
-    <div className="testimonial border border-neutral-800/60 bg-neutral-900/30 rounded-xl p-4 lg:p-8 lg:py-6 text-left mb-4 md:mb-0 lg:mb-6 last:mb-0 flex flex-col justify-between lg:h-fit lg:grid">
+    <div className="testimonial border border-neutral-800/60 bg-neutral-900/30 rounded-xl p-4 lg:px-7 lg:py-6 text-left mb-4 md:mb-0 xl:mb-6 last:mb-0 flex flex-col">
       <div className="flex gap-4 order-last">
         <div className="w-[2.75rem] pt-1">
           <img src="placeholder.png" className="w-full rounded-full"></img>

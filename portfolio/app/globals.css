@@ -111,6 +111,6 @@ body {
   }
 
   .testimonial-column {
-    @apply md:grid md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-8;
+    @apply md:grid md:grid-cols-2 xl:block gap-4 xl:gap-8;
   }
 }

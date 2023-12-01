@@ -170,7 +170,7 @@ export default function Home() {
         <h2 className="title-1 lg:mb-2">Testimonials</h2>
         <div
           id="testimonials-container"
-          className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8"
+          className="grid md:grid-cols-1 xl:grid-cols-3 gap-4 xl:gap-8"
         >
           <div className="testimonial-column">
             <Testimonial
