@@ -8,19 +8,18 @@ import ProjectLink from "@/components/project-link";
 
 export default function Home() {
   return (
-    <main id="landing">
-      <header className="mt-0 pt-0 flex flex-col">
+    <main id="landing" className="">
+      <section className="mt-0 pt-0 flex flex-col">
         <div className="flex flex-col h-full">
-          <h1 className="large-title mb-2 max-w-4xl">
-            I’m Christina Raganit, a Vancouver-based product/UX designer who
-            writes code.
+          <h1 className="large-title mb-2 lg:mb-1 max-w-4xl">
+            I’m Christina Raganit, a product designer who writes code.
           </h1>
           <img
             src="headshot.png"
-            className="h-20 w-20 mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
+            className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
 
-          <p className="text-2xl tracking-tight text-neutral-400 mb-3">
+          <p className="text-lg leading-relaxed lg:text-2xl lg:leading-snug tracking-tight text-neutral-400 pb-0">
             I'm a{" "}
             <span className="font-medium text-neutral-200">
               detail-oriented
@@ -37,31 +36,26 @@ export default function Home() {
             that align with business goals and technical requirements.
           </p>
         </div>
-      </header>
+      </section>
       <section id="projects" className="scroll-mt-40">
-        <h2 className="title-1 mb-2">Featured projects</h2>
+        <h2 className="title-1 lg:mb-2">Featured projects</h2>
         <div className="grid gap-4 lg:gap-8">
           <ProjectLink
             title="Chow Now"
             imgLink="/projects/chow-now/chow-now-1600x900.png"
             link="projects/chow-now"
-            chips={[
-              "Interface Designer",
-              "Frontend Developer",
-              "Hackathon Winner",
-            ]}
+            chips={["Interface Design", "Frontend Development", "Hackathon"]}
           >
             Designed and developed a mobile app that offers a discreet way for
             victims of domestic violence to confidentially report incidents of
-            abuse to local authorities, ensuring their safety while avoiding
-            suspicion from their abusers.
+            abuse to local authorities.
           </ProjectLink>
         </div>
       </section>
 
       <section className="text-left grid lg:grid-cols-2 gap-16 lg:gap-32">
         <div>
-          <h2 className="title-1 mb-2">Experience</h2>
+          <h2 className="title-1 lg:mb-2">Experience</h2>
           <div className="flex flex-col gap-5">
             <Experience
               role="UX Designer"
@@ -102,7 +96,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h2 className="title-1 mb-2">Awards</h2>
+          <h2 className="title-1 lg:mb-2">Awards</h2>
           <div className="flex flex-col gap-5">
             <div className="flex flex-row gap-6">
               <div className="flex flex-col pt-0.5 gap-1.5 items-center w-8">
@@ -173,10 +167,10 @@ export default function Home() {
       </section>
 
       <section id="testimonials">
-        <h2 className="title-1 mb-2">Testimonials</h2>
+        <h2 className="title-1 lg:mb-2">Testimonials</h2>
         <div
           id="testimonials-container"
-          className="grid md:grid-cols-3 gap-4 lg:gap-8"
+          className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8"
         >
           <div className="testimonial-column">
             <Testimonial

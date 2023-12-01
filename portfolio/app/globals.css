@@ -24,11 +24,11 @@ body {
   }
 
   main:not(.project) {
-    @apply w-full flex flex-col gap-16 mt-[13rem] lg:gap-32 px-6 lg:px-20 max-w-[80rem] min-h-[calc(100vh-10rem)];
+    @apply w-full flex flex-col gap-16 mt-[10rem] lg:gap-32 px-6 lg:px-20 max-w-[80rem] min-h-[calc(100vh-10rem)];
   }
 
   main.project {
-    @apply gap-12 lg:gap-16 max-w-full flex items-center flex-col mt-[13rem];
+    @apply gap-12 lg:gap-16 max-w-full flex items-center flex-col mt-[10rem];
   }
 
   main.project section {
@@ -68,7 +68,7 @@ body {
   }
 
   .title-5 {
-    @apply text-base xl:text-lg font-bold bg-gradient-to-b from-neutral-200 to-neutral-300 inline-block text-transparent bg-clip-text pb-2 tracking-tighter;
+    @apply text-lg xl:text-lg font-bold bg-gradient-to-b from-neutral-200 to-neutral-300 inline-block text-transparent bg-clip-text pb-2 tracking-tighter;
   }
 
   .headline {
@@ -108,5 +108,9 @@ body {
 
   ul li.award, ul li span.award {
     @apply font-medium text-neutral-300;
+  }
+
+  .testimonial-column {
+    @apply md:grid md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-8;
   }
 }

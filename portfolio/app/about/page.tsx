@@ -77,8 +77,12 @@ export default function About() {
             But as much as I liked resolving merge conflicts and writing proof
             statements, I liked designing interfaces more. After graduating with
             my diploma in Computer Systems Technology, I enrolled into the
-            Interactive Arts and Technology program at Simon Fraser University,
-            where I am currently sharpening my skills in interface design and
+            Interactive Arts and Technology program at{" "}
+            <Link
+              text="Simon Fraser University"
+              link="https://www.sfu.ca/siat.html"
+            ></Link>
+            , where I am currently sharpening my skills in interface design and
             leading the design team at{" "}
             <Link text="SFU Surge" link="https://sfusurge.com/"></Link>.
           </p>
@@ -86,10 +90,18 @@ export default function About() {
             When I am not tinkering away on Figma, I am...
           </p>
           <ul className="text-neutral-400 list-disc list-inside leading-relaxed">
-            <li>Eating the free pizza at a hackathon</li>
-            <li>Losing all my League of Legends games</li>
-            <li>Jamming to my favorite blink-182 songs</li>
-            <li>Reading stories about magic and dragons</li>
+            <li className="text-neutral-400">
+              Eating the free pizza at a hackathon
+            </li>
+            <li className="text-neutral-400">
+              Losing all my League of Legends games
+            </li>
+            <li className="text-neutral-400">
+              Jamming to my favorite blink-182 songs
+            </li>
+            <li className="text-neutral-400">
+              Reading stories about magic and dragons
+            </li>
           </ul>
         </section>
       </section>

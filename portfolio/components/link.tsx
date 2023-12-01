@@ -7,14 +7,14 @@ export default function Link(props: Props) {
   return (
     <a
       href={props.link}
-      className="inline-flex flex-wrap hover:text-teal-300 focus:text-teal-300"
+      className="inline-flex flex-wrap hover:text-teal-300 focus:text-teal-300 group/link"
     >
-      <span className="underline">{props.text}</span>
+      <span className="underline break-normal">{props.text}</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="w-4 h-4"
+        className="w-4 h-4 group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 transition-transform"
       >
         <path
           fill-rule="evenodd"

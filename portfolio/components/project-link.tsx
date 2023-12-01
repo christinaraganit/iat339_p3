@@ -16,7 +16,14 @@ export default function ProjectLink(props: Props) {
       hover:from-neutral-700/30 hover:via-neutral-400 hover:to-neutral-700/30
       focus:from-neutral-700/30 focus:via-neutral-400 focus:to-neutral-700/30 focus:scale-1025 transition-transform"
     >
-      <div className="text-left p-6 pb-0 lg:p-8 xl:p-10 rounded-lg lg:rounded-3xl bg-neutral-900 group-hover/project-link:bg-neutral-900/90">
+      <div className="text-left p-4 lg:p-8 xl:p-10 rounded-lg lg:rounded-3xl bg-neutral-900 group-hover/project-link:bg-neutral-900/90">
+        <div className="relative float-right lg:hidden">
+          <ArrowLongRightIcon
+            width={24}
+            height={24}
+            className="group-hover/project-link:translate-x-1.5 group-focus/project-link:translate-x-1.5 transition-transform text-neutral-300"
+          ></ArrowLongRightIcon>
+        </div>
         <div className="grid lg:grid-cols-2 lg:gap-4">
           <div className="w-full">
             <h3 className="title-2">{props.title}</h3>
@@ -26,11 +33,11 @@ export default function ProjectLink(props: Props) {
               ))}
             </div>
           </div>
-          <div className="pt-6 lg:pt-0 w-full flex flex-col justify-end text-neutral-200">
-            <p className="text-neutral-200 pb-4 text-base lg:lead">
+          <div className="pt-4 lg:pt-0 w-full flex flex-col justify-end text-neutral-200">
+            <p className="text-neutral-200 pb-3 lg:pb-4 text-base lg:lead">
               {props.children}
             </p>
-            <span className="flex text-neutral-400 flex-row items-center gap-2">
+            <span className="text-neutral-400 flex-row items-center gap-2 hidden lg:flex">
               <span className="text-sm">Read case study</span>
               <ArrowLongRightIcon
                 width={20}

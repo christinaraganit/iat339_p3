@@ -15,7 +15,7 @@ export default function Experience(props: Props) {
         <div className="w-[0.063rem] block rounded-full h-full bg-neutral-800"></div>
       </div>
       <div className="flex flex-col">
-        <h3 className="title-5">
+        <h3 className="title-5 lg:pb-1">
           {props.role} at {props.company}
         </h3>
         <span className="text-sm text-neutral-400 block order-first mb-1.5 font-light">
