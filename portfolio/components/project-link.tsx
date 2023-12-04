@@ -6,6 +6,7 @@ interface Props {
   children: any;
   link: string;
   imgLink: string;
+  smImgLink: string;
 }
 
 export default function ProjectLink(props: Props) {
@@ -48,11 +49,15 @@ export default function ProjectLink(props: Props) {
           </div>
         </div>
         <div className="mt-4 lg:mt-6 xl:mt-8">
-          <img
-            src={props.imgLink}
-            className="rounded-md"
-            alt={`Mockups of the project ${props.title}`}
-          ></img>
+          <picture>
+            <source media="(min-width: 48rem)" srcSet={props.imgLink}></source>
+
+            <img
+              src={props.smImgLink}
+              className="rounded-md"
+              alt={`Mockups of the project ${props.title}`}
+            ></img>
+          </picture>
         </div>
       </div>
     </a>

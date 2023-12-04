@@ -38,13 +38,13 @@ export default function Testimonial(props: Props) {
                focus:decoration-blue-400
                hover:decoration-blue-400 group/link transition-colors"
             >
-              <span className="text-sm text-neutral-400 pb-0 group-hover/link:text-blue-400 transition-colors">
+              <span className="text-sm text-neutral-400 pb-0 group-hover/link:text-orange-400 transition-colors">
                 View comment on LinkedIn
               </span>
               <ArrowTopRightOnSquareIcon
                 width={20}
                 height={20}
-                className="text-neutral-400 group-hover/link:text-blue-400 group-focus/link:text-blue-400 transition-colors"
+                className="text-neutral-400 group-hover/link:text-orange-400 group-focus/link:text-orange-400 transition-colors"
               ></ArrowTopRightOnSquareIcon>
             </a>
           )}

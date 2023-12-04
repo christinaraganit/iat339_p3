@@ -36,7 +36,11 @@ body {
   }
 
   li {
-    @apply text-neutral-300;
+    @apply text-neutral-400;
+  }
+
+  .phone-link {
+    @apply text-neutral-300 underline underline-offset-2 hover:text-orange-300 focus:text-orange-300;
   }
 
   p {
@@ -87,7 +91,7 @@ body {
   }
 
   .icon-link {
-    @apply text-neutral-200 hover:text-blue-400 focus:text-blue-400 focus:scale-125 transition-colors;
+    @apply text-neutral-200 hover:text-orange-400 focus:text-orange-400 focus:scale-125 transition-colors;
   }
 
   .chip {
@@ -95,7 +99,7 @@ body {
   }
 
   nav a.link {
-    @apply text-sm font-medium text-neutral-200 hover:text-blue-400 focus:text-blue-400 focus:scale-1025 transition-colors;
+    @apply text-sm font-medium text-neutral-200 hover:text-orange-400 focus:text-orange-400 focus:scale-1025 transition-colors;
   }
 
   .document-link {
@@ -103,7 +107,7 @@ body {
   }
 
   .divider {
-    @apply h-[1px] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950;
+    @apply h-[0.0625rem] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950;
   }
 
   ul li.award, ul li span.award {

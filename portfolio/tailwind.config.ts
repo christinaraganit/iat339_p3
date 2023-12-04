@@ -17,6 +17,13 @@ const config: Config = {
         "1025": "1.025",
       },
     },
+    screens: {
+      'sm': '40rem',
+      'md': '48rem',
+      'lg': '64rem',
+      'xl': '80rem',
+      '2xl': '96rem',
+    },
   },
   plugins: [],
 };

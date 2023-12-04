@@ -95,13 +95,36 @@ export default function ChowNow() {
           </div>
           <div>
             <ul className="list-disc leading-relaxed list-inside">
-              <li>VictimLinkBC: +1 (800) 563-0808</li>
-              <li>Battered Women's Support Services: +1 (604) 687-1867</li>
-              <li>BC Society of Transition Houses: +1 (604) 669-6943</li>
               <li>
-                Domestic Violence and Abuse Support Services: +1 (604) 640-7549
+                VictimLinkBC:{" "}
+                <a href="tel:+18005630808" className="phone-link">
+                  +1 (800) 563-0808
+                </a>
               </li>
-              <li>South Asian Women's Centre: +1 (604)-326-3000</li>
+              <li>
+                Battered Women's Support Services:{" "}
+                <a href="tel:+16046871867" className="phone-link">
+                  +1 (604) 687-1867
+                </a>
+              </li>
+              <li>
+                BC Society of Transition Houses:{" "}
+                <a href="tel:+16046696943" className="phone-link">
+                  +1 (604) 669-6943
+                </a>
+              </li>
+              <li>
+                Domestic Violence and Abuse Support Services:{" "}
+                <a href="tel:+16046407549" className="phone-link">
+                  +1 (604) 640-7549
+                </a>
+              </li>
+              <li>
+                South Asian Women's Centre:{" "}
+                <a href="tel:+16043263000" className="phone-link">
+                  +1 (604)-326-3000
+                </a>
+              </li>
             </ul>
           </div>
         </div>

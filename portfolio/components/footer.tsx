@@ -9,8 +9,14 @@ export default function Footer() {
           <a href="/" className="link">
             Home
           </a>
+          <a href="/projects" className="link">
+            Projects
+          </a>
           <a href="/about" className="link">
             About
+          </a>
+          <a href="/awards" className="link">
+            Awards
           </a>
           <a
             href="https://drive.google.com/file/d/1XdjiOlwxWced9ZCvzwyLcPiZANGwptAV/view"

@@ -11,7 +11,7 @@ export default function Home() {
     <main id="landing">
       <section className="mt-0 pt-0 flex flex-col">
         <div className="flex flex-col h-full">
-          <h1 className="large-title mb-2 lg:mb-1 max-w-4xl">
+          <h1 className="large-title mb-2 lg:mb-0 max-w-4xl">
             I’m Christina Raganit, a product designer who writes code.
           </h1>
           <img
@@ -22,21 +22,13 @@ export default function Home() {
             className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
 
-          <p className="text-lg leading-relaxed lg:text-2xl lg:leading-snug tracking-tight text-neutral-400 pb-0">
-            I'm a{" "}
-            <span className="font-medium text-neutral-200">
-              detail-oriented
-            </span>{" "}
-            designer with a{" "}
-            <span className="font-medium text-neutral-200">
-              technical background
-            </span>{" "}
-            and two years of industry experience. I collaborate effectively with
-            product and development teams to design{" "}
-            <span className="font-medium text-neutral-200">
-              user-centric solutions
-            </span>{" "}
-            that align with business goals and technical requirements.
+          <p className="text-lg leading-relaxed lg:text-xl lg:leading-8 text-neutral-400 pb-0">
+            Vancouver-based designer with a diploma in computer science and 2+
+            years of experience as a UX Designer. 3rd year Interactive Arts and
+            Technology student at Simon Fraser University.{" "}
+            <span className="text-neutral-200">
+              Seeking a full-time internship for Summer 2024.
+            </span>
           </p>
         </div>
       </section>
@@ -46,6 +38,7 @@ export default function Home() {
           <ProjectLink
             title="Chow Now"
             imgLink="/projects/chow-now/chow-now-1600x900.png"
+            smImgLink="/projects/chow-now/chow-now-800.png"
             link="projects/chow-now"
             chips={["Interface Design", "Frontend Development", "Hackathon"]}
           >

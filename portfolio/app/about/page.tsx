@@ -18,7 +18,7 @@ export default function About() {
           <h1 className="large-title mb-1.5 lg:mb-0 lg:pb-5 block">
             Christina Raganit
           </h1>
-          <p className="title-4">Product Designer</p>
+          <p className="title-4">Vancouver-Based Product Designer</p>
           <p className="text-neutral-400 mb-4">
             I design visually appealing and user-centric interfaces, write code
             for fun, and I love to read.
