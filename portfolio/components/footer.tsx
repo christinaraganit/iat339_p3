@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
         </nav>
 
-        <div className="flex flex-row gap-4">
+        <div className="flex items-center flex-row gap-4">
           <a
             href="https://github.com/christinaraganit"
             className="icon-link"
@@ -54,8 +54,8 @@ export default function Footer() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="26"
+              height="26"
               viewBox="0 0 24 24"
             >
               <path

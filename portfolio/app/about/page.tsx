@@ -18,10 +18,11 @@ export default function About() {
           <h1 className="large-title mb-1.5 lg:mb-0 lg:pb-5 block">
             Christina Raganit
           </h1>
-          <p className="title-4">Vancouver-Based Product Designer</p>
+          <p className="title-4">
+            Vancouver-based product designer and frontend developer.
+          </p>
           <p className="text-neutral-400 mb-4">
-            I design visually appealing and user-centric interfaces, write code
-            for fun, and I love to read.
+            “Never overlook the power of simplicity.” – Robin S. Sharma
           </p>
 
           <div className="flex flex-row gap-4 items-center">
@@ -85,18 +86,19 @@ export default function About() {
             </a>
           </div>
         </section>
-        <section className="hello">
-          <h2 className="title-2 mb-1">My story</h2>
-          <p className="title-4 mb-1">
+        <section>
+          <h2 className="title-3 mb-1">My story</h2>
+          <p>
             I fell in love with design in the lecture halls of my computer
             science classes at{" "}
             <abbr title="British Columbia Institute of Technology">BCIT</abbr>.
+            I initially dreamt of being a software developer so that I can build
+            things that'll make the world a better place, but it turns out, I
+            wanted to design them too.
           </p>
-          <p className="text-neutral-400 mb-0.5">
-            But as much as I liked resolving merge conflicts and writing proof
-            statements, I liked designing interfaces more. After graduating with
-            my diploma in Computer Systems Technology, I enrolled into the
-            Interactive Arts and Technology program at{" "}
+          <p>
+            After graduating with my diploma in Computer Systems Technology, I
+            enrolled into the Interactive Arts and Technology program at{" "}
             <Link
               text="Simon Fraser University"
               link="https://www.sfu.ca/siat.html"
@@ -105,20 +107,20 @@ export default function About() {
             leading the design team at{" "}
             <Link text="SFU Surge" link="https://sfusurge.com/"></Link>.
           </p>
-          <p className="text-neutral-400 pb-2">
-            When I am not tinkering away on Figma, I am...
+          <p className="pb-1">
+            When I am not tinkering away on Figma, you can usually find me...
           </p>
-          <ul className="text-neutral-400 list-disc list-inside leading-relaxed">
-            <li className="text-neutral-400">
-              Eating the free pizza at a hackathon
+          <ul className="list-disc list-inside leading-relaxed ml-3 text-neutral-300">
+            <li className="text-neutral-300">
+              Eating pizza at hackathons all over the Lower Mainland
             </li>
-            <li className="text-neutral-400">
+            <li className="text-neutral-300">
               Losing all my League of Legends games
             </li>
-            <li className="text-neutral-400">
-              Jamming to my favorite blink-182 songs
+            <li className="text-neutral-300">
+              Jamming to my favorite blink-182 songs, and
             </li>
-            <li className="text-neutral-400">
+            <li className="text-neutral-300">
               Reading stories about magic and dragons
             </li>
           </ul>
