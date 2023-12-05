@@ -18,6 +18,7 @@ const config: Config = {
       },
     },
     screens: {
+      'xs': '25.875rem',
       'sm': '40rem',
       'md': '48rem',
       'lg': '64rem',

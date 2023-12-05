@@ -24,11 +24,11 @@ body {
   }
 
   main:not(.project) {
-    @apply w-full flex flex-col gap-16 mt-[13rem] lg:gap-32 px-6 lg:px-20 max-w-[80rem];
+    @apply w-full flex flex-col gap-16 mt-[8rem] lg:mt-[13rem] lg:gap-32 px-6 lg:px-20 max-w-[80rem];
   }
 
   main.project {
-    @apply px-6 gap-16 lg:gap-24 max-w-full flex items-center flex-col mt-[13rem];
+    @apply px-6 gap-12 lg:gap-16 max-w-full flex items-center flex-col mt-[8rem] lg:mt-[13rem];
   }
 
   main.project section {
@@ -98,16 +98,20 @@ body {
     @apply bg-neutral-800 w-fit py-1 px-3 rounded-full text-sm text-neutral-300;
   }
 
+  .chip-with-img {
+    @apply bg-neutral-800/60 w-fit inline-flex gap-3 items-center flex-wrap flex-row py-1 pl-3 pr-4 rounded-lg text-sm text-neutral-300;
+  }
+
   nav a.link {
     @apply text-sm font-medium text-neutral-200 hover:text-orange-400 focus:text-orange-400 focus:scale-1025 transition-colors;
   }
 
   .document-link {
-    @apply text-xs uppercase tracking-widest text-neutral-400 hover:text-neutral-200;
+    @apply text-xs uppercase tracking-widest text-neutral-400 hover:text-neutral-200 max-w-[80rem];
   }
 
   .divider {
-    @apply h-[0.0625rem] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950;
+    @apply h-[0.0625rem] w-full bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950 max-w-[80rem];
   }
 
   ul li.award, ul li span.award {

@@ -22,7 +22,7 @@ export default function Home() {
             className="h-16 w-16 lg:h-20 lg:w-20 mb-6 lg:mb-8 grayscale rounded-full order-first outline outline-neutral-700 outline-offset-4 outline-1"
           ></img>
 
-          <p className="text-lg leading-relaxed lg:text-xl lg:leading-8 text-neutral-400 pb-0">
+          <p className="text-base leading-relaxed lg:text-xl lg:leading-8 text-neutral-400 pb-0">
             Vancouver-based designer with a diploma in computer science and 2+
             years of experience as a UX Designer. 3rd year Interactive Arts and
             Technology student at Simon Fraser University.{" "}

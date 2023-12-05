@@ -11,10 +11,8 @@ export default function ChowNow() {
       <section className="flex items-center flex-col text-center">
         <h1 className="large-title pb-4">Chow Now</h1>
         <p className="lead text-neutral-400 pb-0">
-          Designing a mobile app that offers a discreet way for victims of
-          domestic violence to confidentially report incidents of abuse to local
-          authorities, ensuring their safety while avoiding suspicion from their
-          abusers.
+          Designed and developed a mobile app that offers victims of domestic
+          violence a way to discreetly report abuse to local authorities.
         </p>
 
         <picture className="mt-8 px-4">
@@ -34,8 +32,9 @@ export default function ChowNow() {
           ></img>
         </picture>
       </section>
+
       <section>
-        <div className="grid lg:grid-cols-5 -mt-8 gap-8 lg:gap-16">
+        <div className="grid lg:grid-cols-5 -mt-4 gap-8 lg:gap-16">
           <div className="grid gap-1 lg:gap-2 lg:col-span-2">
             <div>
               <h2 className="headline pb-1">My roles</h2>
@@ -51,9 +50,7 @@ export default function ChowNow() {
             </div>
             <div>
               <h3 className="headline pb-1">Achievements</h3>
-              <p>
-                1st Place Winner (out of 44 teams) and Best UI/UX Design Award
-              </p>
+              <p>1st Place Winner (out of 44 teams) and Best Design Award</p>
             </div>
           </div>
           <div className="lg:col-span-3">
@@ -77,14 +74,16 @@ export default function ChowNow() {
           </div>
         </div>
       </section>
+
+      <div className="divider"></div>
+
       <section>
         <h2 className="headline pb-3">Content warning</h2>
         <div className="grid lg:grid-cols-2 lg:gap-12">
           <div>
             <p className="title-3">
-              The following content may contain mentions of domestic abuse and
-              violence, which may be distressing or triggering for some
-              individuals.
+              The following content contains mentions of domestic violence,
+              which may triggering for some individuals.
             </p>
             <p>
               Please proceed with caution and prioritize your well-being while
@@ -129,127 +128,216 @@ export default function ChowNow() {
           </div>
         </div>
       </section>
+      <div className="divider"></div>
+
+      <div className="lg:px-20 flex flex-col lg:items-center">
+        <div className="h-16 w-16 bg-gradient-to-b from-yellow-400 to-yellow-700 rounded-lg mb-6">
+          <div className="m-[0.0625rem] bg-gradient-to-b from-neutral-900 to-neutral-950 w-[calc(100%-0.125rem)] h-[calc(100%-0.125rem)] rounded-lg flex items-center justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="w-8 h-8 text-yellow-400"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <h2 className="title-1">Highlights</h2>
+        <p className="lg:text-center text-neutral-400 mb-4">
+          In just 23 hours, Eunsaem and I developed the MVP for Chow Now, an app
+          that provides victims of domestic violence a way to report incidents
+          of abuse, getting them access to the support they need without raising
+          suspicion.
+        </p>
+        <div className="grid lg:grid-cols-2 gap-6">
+          <picture>
+            <source
+              media="(min-width: 40rem)"
+              srcSet="/projects/chow-now/highlight-2-1920x1080.png"
+            ></source>
+
+            <img
+              width={800}
+              height={953}
+              src="/projects/chow-now/location-services-800.png"
+              alt="Chow Now asking permission to access user's location"
+              className="rounded-lg w-full"
+            ></img>
+          </picture>
+
+          <picture>
+            <source
+              media="(min-width: 40rem)"
+              srcSet="/projects/chow-now/highlight-1-1920x1080.png"
+            ></source>
+
+            <img
+              width={800}
+              height={880}
+              src="/projects/chow-now/add-emergency-contact-800.png"
+              alt="Feature to add an emergency contact in Chow Now"
+              className="rounded-lg"
+            ></img>
+          </picture>
+
+          <picture>
+            <source
+              media="(min-width: 40rem)"
+              srcSet="/projects/chow-now/highlight-4-1920x1080.png"
+            ></source>
+
+            <img
+              width={800}
+              height={1058}
+              alt="Sending an alert on Chow Now Chow Now"
+              src="/projects/chow-now/send-alert-800.png"
+              className="rounded-lg"
+            ></img>
+          </picture>
+
+          <picture>
+            <source
+              media="(min-width: 40rem)"
+              srcSet="/projects/chow-now/highlight-3-1920x1080.png"
+            ></source>
+
+            <img
+              width={800}
+              height={1478}
+              src="/projects/chow-now/interface-800.png"
+              alt="Chow Now looking like a typical takeout app, nothing suspicious here"
+              className="rounded-lg"
+            ></img>
+          </picture>
+        </div>
+      </div>
+
+      <div className="divider"></div>
       <section>
         <h2 className="headline pb-3">Background</h2>
         <p className="title-2">
           In 2019, a woman in Ohio reported an incident of domestic abuse by
           pretending to order a pizza.
         </p>
-        <p className="pb-0">
-          In the presence of her abuser, she had to be discreet. Although the
-          situation ended well, my research revealed the absence of a universal
-          code language for callers in distress, leading me to wonder…
+        <p>
+          Her abuser was around, so she had to be discreet. Although the
+          situation ended well for her, I learned that there wasn’t a universal
+          code for callers in the same boat as her.
+        </p>
+        <p className="pb-0 text-lg lg:text-xl">
+          This led me to wonder how we can help victims of domestic violence
+          report incidents of abuse without raising the suspicion of their
+          abusers.
         </p>
       </section>
-      <section>
-        <div className="bg-neutral-900/60  rounded-2xl">
-          <div className="bg-gradient-to-r from-neutral-950 via-amber-500 to-neutral-950 h-[0.0625rem] opacity-60 rounded-2xl"></div>
-          <div className="p-4 lg:p-6 lg:p-12 flex flex-col items-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/[9%] to-neutral-950/60 rounded-2xl">
-            <div className="rounded-full p-[0.125rem] bg-gradient-to-b from-amber-500 to-amber-500/0 w-fit mb-3">
-              <div className="bg-neutral-900 p-1.5 rounded-full">
-                <svg
-                  width="32"
-                  height="32"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 4C9.238 4 7 6.238 7 9a1 1 0 0 0 2 0c0-1.658 1.342-3 3-3s3 1.342 3 3c0 .816-.199 1.294-.438 1.629-.262.365-.625.638-1.128.985l-.116.078c-.447.306-1.023.699-1.469 1.247-.527.648-.849 1.467-.849 2.561v.5a1 1 0 1 0 2 0v-.5c0-.656.178-1.024.4-1.299.257-.314.603-.552 1.114-.903l.053-.037c.496-.34 1.133-.786 1.62-1.468C16.7 11.081 17 10.183 17 9c0-2.762-2.238-5-5-5ZM12 21.25a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Z"
-                    fill="#f59e0b"
-                  />
-                </svg>
-              </div>
-            </div>
-            <h2 className="headline pb-3 text-amber-500 mb-4">Framing</h2>
-            <p className="title-1-no-gradient text-white opacity-90 pb-0 text-center max-w-full">
-              How might we offer victims of domestic violence a{" "}
-              <em>discreet</em> way to report incidents of abuse and facilitate
-              their access to the necessary aid?
-            </p>
-          </div>
-        </div>
-      </section>
+
+      <div className="divider"></div>
+
       <section>
         <h2 className="headline pb-3">Secondary research</h2>
-        <p className="title-2 mb-1">
-          The goal was to design an app that can ask for the victim's location
-          without being suspicious.
-        </p>
-        <p className="mb-2">
-          From my research, I surfaced the following insights that might help me
-          design a solution:
-        </p>
-        <div className="grid gap-4 lg:grid-cols-2 lg:gap-6">
-          <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
-            <h3 className="title-3">
-              There's a disturbing relationship between domestic violence and
-              sports.
-            </h3>
-            <div className="rounded-full p-[0.0625rem] bg-gradient-to-b from-neutral-600 to-neutral-600/30 w-fit mb-5 order-first">
-              <div className="bg-neutral-900 p-3 rounded-full">
-                <svg
-                  width="32"
-                  height="32"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Zm-1.926 1.72a8.526 8.526 0 0 1 3.852 0l-1.924 1.153-1.928-1.154Zm-1.83.653 3.008 1.8v2.193l-2.791 2.028-2.044-.707-.587-3.534a8.526 8.526 0 0 1 2.414-1.78ZM4.59 7.835l.358 2.157-1.428 1.428a8.449 8.449 0 0 1 1.07-3.585Zm-.968 5.604 2.327-2.327 2.04.705L9.07 15.15l-.97 1.575-3.293-.194a8.448 8.448 0 0 1-1.186-3.092Zm2.47 4.67 1.904.112.675 1.602a8.51 8.51 0 0 1-2.58-1.714Zm4.439 2.264-1.184-2.809.963-1.567h3.372l.912 1.581-1.04 2.78a8.554 8.554 0 0 1-3.023.015Zm4.83-.563.567-1.517 1.67.105a8.502 8.502 0 0 1-2.238 1.412Zm3.532-2.834-3.024-.19-.938-1.624 1.087-3.345 2.013-.696 2.312 2.52a8.459 8.459 0 0 1-1.45 3.335Zm1.598-5.391-1.44-1.57.362-2.178a8.45 8.45 0 0 1 1.078 3.748Zm-2.318-5.43-.589 3.534-2.04.705-2.791-2.028V6.172l3.002-1.8a8.528 8.528 0 0 1 2.418 1.784Zm-8.705 5.362 2.535-1.842 2.535 1.842-.968 2.98h-3.134l-.968-2.98Z"
-                    fill="#d4d4d4"
-                  />
-                </svg>
-              </div>
-            </div>
-            <p className="pb-0">
-              Research conducted by Lancaster University revealed that domestic
-              violence reports rose after soccer matches, whether the English
-              team lost <em>or</em> won.
+        <div className="grid gap-4 lg:gap-16 lg:grid-cols-2">
+          <div>
+            <p className="title-2">
+              The goal was to design an app that can ask for the victim's
+              location without being suspicious.
             </p>
           </div>
-          <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
-            <h3 className="title-3">
-              Sports fans typically order food during games.
-            </h3>
-            <div className="rounded-full p-[0.0625rem] bg-gradient-to-b from-neutral-600 to-neutral-600/30 w-fit mb-5 order-first">
-              <div className="bg-neutral-900 p-3 rounded-full">
+          <div>
+            <p>Here's what I learned:</p>
+            <ol className="pl-2 flex flex-col gap-2">
+              <li className="flex gap-3">
                 <svg
-                  width="32"
-                  height="32"
+                  width="24"
+                  height="24"
                   fill="none"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="w-7 h-7 fill-amber-400"
                 >
-                  <path
-                    d="M9 10.99a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5 1.998a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-5 3.998a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM5 4.66c0-1.497 1.23-2.805 2.82-2.648A20.782 20.782 0 0 1 21.262 8.84c1.07 1.193.737 2.964-.479 3.845-1.582 1.148-3.94 2.857-5.283 3.833-.002.437-.002.721-.001 1.092v.628a1.75 1.75 0 0 1-2.056 1.724c-.204.826-.932 1.527-1.944 1.527-.7 0-1.262-.335-1.609-.815l-1.325.957c-1.488 1.074-3.57.011-3.569-1.826L5 4.661Zm2.673-1.155c-.609-.06-1.174.443-1.174 1.155v.52c5.254.221 9.911 2.749 12.985 6.594l.419-.304c.578-.42.652-1.173.242-1.63A19.282 19.282 0 0 0 7.673 3.506Zm-1.177 16.3c0 .612.694.967 1.19.608l2.128-1.534a.75.75 0 0 1 1.188.61c0 .27.209.5.497.5a.497.497 0 0 0 .502-.5v-1.252a.75.75 0 0 1 1.5 0c0 .14.111.25.248.25a.25.25 0 0 0 .25-.25v-.622c-.001-.47-.002-.808.005-1.489a.75.75 0 0 1 .308-.6c.902-.656 2.496-1.812 3.956-2.87a16.04 16.04 0 0 0-11.77-5.974l-.002 13.123Z"
-                    fill="#d4d4d4"
-                  />
+                  <path d="M11.25 6.75a.75.75 0 0 1 1.5 0v1.5a.75.75 0 0 1-1.5 0v-1.5ZM16.28 8.216a.75.75 0 0 0-1.06 0l-1.061 1.06a.75.75 0 1 0 1.06 1.061l1.061-1.06a.75.75 0 0 0 0-1.06ZM8.78 8.216a.75.75 0 0 0-1.06 1.06l1.06 1.061a.75.75 0 1 0 1.061-1.06l-1.06-1.06Z" />
+                  <path d="M12 2.001a7.25 7.25 0 0 1 7.25 7.25c0 2.096-.9 4.02-2.663 5.742a.75.75 0 0 0-.175.265l-.032.103-1.13 4.895a2.25 2.25 0 0 1-2.02 1.737l-.173.007h-2.114a2.25 2.25 0 0 1-2.147-1.577l-.045-.167-1.13-4.895a.75.75 0 0 0-.206-.368c-1.68-1.64-2.577-3.463-2.659-5.444l-.006-.298.004-.24A7.25 7.25 0 0 1 12 2.002Zm2.115 16.498H9.884l.329 1.42a.75.75 0 0 0 .627.573l.103.008h2.114a.75.75 0 0 0 .7-.483l.03-.099.328-1.419ZM12 3.501a5.75 5.75 0 0 0-5.746 5.53l-.004.22.007.277c.076 1.563.8 3.02 2.206 4.392.264.258.46.576.571.926l.049.178.455 1.975h1.712V10.75a.75.75 0 0 1 1.5 0V17h1.711l.458-1.976a2.25 2.25 0 0 1 .493-.97l.127-.133c1.404-1.373 2.128-2.828 2.204-4.392l.007-.277-.004-.22A5.75 5.75 0 0 0 12 3.5Z" />
                 </svg>
-              </div>
-            </div>
-            <p className="pb-0">
-              I investigated sports fans' behaviors and found that ordering food
-              was a common aspect of watching sports. Takeout app Deliveroo
-              reported a 25% surge in app orders before major games.
-            </p>
+                <h3 className="w-full text-lg lg:text-xl text-neutral-200">
+                  Domestic violence reports commonly rise after major sporting
+                  events.
+                </h3>
+              </li>
+              <li className="flex gap-3">
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-7 h-7 fill-amber-400"
+                >
+                  <path d="M11.25 6.75a.75.75 0 0 1 1.5 0v1.5a.75.75 0 0 1-1.5 0v-1.5ZM16.28 8.216a.75.75 0 0 0-1.06 0l-1.061 1.06a.75.75 0 1 0 1.06 1.061l1.061-1.06a.75.75 0 0 0 0-1.06ZM8.78 8.216a.75.75 0 0 0-1.06 1.06l1.06 1.061a.75.75 0 1 0 1.061-1.06l-1.06-1.06Z" />
+                  <path d="M12 2.001a7.25 7.25 0 0 1 7.25 7.25c0 2.096-.9 4.02-2.663 5.742a.75.75 0 0 0-.175.265l-.032.103-1.13 4.895a2.25 2.25 0 0 1-2.02 1.737l-.173.007h-2.114a2.25 2.25 0 0 1-2.147-1.577l-.045-.167-1.13-4.895a.75.75 0 0 0-.206-.368c-1.68-1.64-2.577-3.463-2.659-5.444l-.006-.298.004-.24A7.25 7.25 0 0 1 12 2.002Zm2.115 16.498H9.884l.329 1.42a.75.75 0 0 0 .627.573l.103.008h2.114a.75.75 0 0 0 .7-.483l.03-.099.328-1.419ZM12 3.501a5.75 5.75 0 0 0-5.746 5.53l-.004.22.007.277c.076 1.563.8 3.02 2.206 4.392.264.258.46.576.571.926l.049.178.455 1.975h1.712V10.75a.75.75 0 0 1 1.5 0V17h1.711l.458-1.976a2.25 2.25 0 0 1 .493-.97l.127-.133c1.404-1.373 2.128-2.828 2.204-4.392l.007-.277-.004-.22A5.75 5.75 0 0 0 12 3.5Z" />
+                </svg>
+                <h3 className="w-full text-lg lg:text-xl text-neutral-200">
+                  Sports fans typically enjoy food during games.
+                </h3>
+              </li>
+            </ol>
           </div>
         </div>
       </section>
+
+      <div className="divider"></div>
+
       <section>
         <h2 className="headline pb-3">Defining the MVP</h2>
         <p className="title-2 mb-2">
-          Based on my findings, I decided that the app was to be disguised as a
-          typical takeout mobile app.
+          Based on my findings, I designed the solution to be disguised as a
+          typical food delivery app.
         </p>
         <p className="mb-2">
-          Before we started coding, Eunsaem and I had to get on the same page
-          about how we would achieve the MVP.
+          But before we started coding, Eunsaem and I had to get on the same
+          page about how we would achieve the MVP, and we had to do it{" "}
+          <em>fast</em>. This meant quickly sketching out the screens and
+          defining the main user flow as well as agreeing on the core
+          functionalities we needed for our MVP and the tech stack we would use
+          to create it.
         </p>
 
         <div className="grid gap-4 lg:gap-6">
           <div className="border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6 rounded-xl">
-            <h3 className="title-3 mb-2">User flow</h3>
+            <h3 className="title-3 pb-2">Low-fidelity wireframes</h3>
+            <p className="mb-4 lg:mb-6 text-neutral-400">
+              I started off with rough sketches and basic wireframes to outline
+              the layout and structure of the UI.
+            </p>
+            <picture>
+              <source
+                media="(min-width: 64rem)"
+                srcSet="/projects/chow-now/low-fidelity-wireframes.png"
+              ></source>
+              <source
+                media="(min-width: 40rem)"
+                srcSet="/projects/chow-now/low-fidelity-wireframes-sm.png"
+              ></source>
+              <img
+                width={1372}
+                height={1630}
+                src="/projects/chow-now/low-fidelity-wireframes-xs.png"
+                alt="Low-fidelity wireframes of Chow Now"
+              ></img>
+            </picture>
+          </div>
+          <div className="border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6 rounded-xl">
+            <h3 className="title-3 pb-2">User flow</h3>
+            <p className="mb-4 lg:mb-6 text-neutral-400">
+              We mapped out the user flow to understand what screens we needed
+              to design and functionalities we needed to develop.
+            </p>
             <picture>
               <source
                 media="(min-width: 64rem)"
@@ -267,262 +355,163 @@ export default function ChowNow() {
               ></img>
             </picture>
           </div>
-          <div className="grid gap-4 lg:gap-8 lg:grid-cols-2">
-            <div className="hidden lg:flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
-              <h3 className="title-3 mb-2">Functionalities (all)</h3>
+          <div className="grid gap-4 lg:gap-8 lg:grid-cols-5">
+            <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6 lg:col-span-3">
+              <h3 className="title-3 pb-1.5">Core functionalities</h3>
+              <p className="mb-2 text-neutral-400">
+                We knew we realistically couldn't finish all the
+                functionalities, so we narrowed down which ones we <em>had</em>{" "}
+                to complete by the end of the hackathon.
+              </p>
 
-              <ul className="list grid gap-3">
-                <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
+              <ul className="pl-2 list grid gap-3">
+                <li className="flex items-center gap-3">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-7 h-7 fill-green-400"
+                  >
+                    <path d="M17.03 11.03a.75.75 0 1 0-1.06-1.06L11 14.94l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Zm-1.036-6.946A2.25 2.25 0 0 0 13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764l.008.084Zm0 .012L16 4.25c0-.052-.002-.103-.005-.154ZM10.25 6.5h3.5c.78 0 1.467-.397 1.871-1h2.129a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H6.25a.75.75 0 0 1-.75-.75V6.25a.75.75 0 0 1 .75-.75h2.129c.404.603 1.091 1 1.871 1Zm0-3h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z" />
+                  </svg>
+                  <span className="w-full lg:text-lg text-neutral-200">
                     User can create an account
                   </span>
                 </li>
-                <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can add emergency contacts
+                <li className="flex items-center gap-3">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-7 h-7 fill-green-400"
+                  >
+                    <path d="M17.03 11.03a.75.75 0 1 0-1.06-1.06L11 14.94l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Zm-1.036-6.946A2.25 2.25 0 0 0 13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764l.008.084Zm0 .012L16 4.25c0-.052-.002-.103-.005-.154ZM10.25 6.5h3.5c.78 0 1.467-.397 1.871-1h2.129a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H6.25a.75.75 0 0 1-.75-.75V6.25a.75.75 0 0 1 .75-.75h2.129c.404.603 1.091 1 1.871 1Zm0-3h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z" />
+                  </svg>
+                  <span className="w-full lg:text-lg text-neutral-200">
+                    User can learn how to use the app through onboarding or
+                    tutorial
                   </span>
                 </li>
-                <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can learn how to use the app through an onboarding flow
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
+                <li className="flex items-center gap-3">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-7 h-7 fill-green-400"
+                  >
+                    <path d="M17.03 11.03a.75.75 0 1 0-1.06-1.06L11 14.94l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Zm-1.036-6.946A2.25 2.25 0 0 0 13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764l.008.084Zm0 .012L16 4.25c0-.052-.002-.103-.005-.154ZM10.25 6.5h3.5c.78 0 1.467-.397 1.871-1h2.129a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H6.25a.75.75 0 0 1-.75-.75V6.25a.75.75 0 0 1 .75-.75h2.129c.404.603 1.091 1 1.871 1Zm0-3h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z" />
+                  </svg>
+                  <span className="w-full lg:text-lg text-neutral-200">
                     User can share their location
                   </span>
                 </li>
                 <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can see restaurants near them (fetching restaurant data
-                    from the Google Maps API)
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-7 h-7 fill-green-400"
+                  >
+                    <path d="M17.03 11.03a.75.75 0 1 0-1.06-1.06L11 14.94l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Zm-1.036-6.946A2.25 2.25 0 0 0 13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764l.008.084Zm0 .012L16 4.25c0-.052-.002-.103-.005-.154ZM10.25 6.5h3.5c.78 0 1.467-.397 1.871-1h2.129a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H6.25a.75.75 0 0 1-.75-.75V6.25a.75.75 0 0 1 .75-.75h2.129c.404.603 1.091 1 1.871 1Zm0-3h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z" />
+                  </svg>
+                  <span className="w-full lg:text-lg text-neutral-200">
+                    User can create an alert and fill out alert details
                   </span>
                 </li>
                 <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can submit an alert
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></CheckCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can send an alert, sending a phone call to a phone
-                    number with an automated voice reading out the alert details
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-7 h-7 fill-green-400"
+                  >
+                    <path d="M17.03 11.03a.75.75 0 1 0-1.06-1.06L11 14.94l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Zm-1.036-6.946A2.25 2.25 0 0 0 13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764l.008.084Zm0 .012L16 4.25c0-.052-.002-.103-.005-.154ZM10.25 6.5h3.5c.78 0 1.467-.397 1.871-1h2.129a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H6.25a.75.75 0 0 1-.75-.75V6.25a.75.75 0 0 1 .75-.75h2.129c.404.603 1.091 1 1.871 1Zm0-3h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z" />
+                  </svg>
+                  <span className="w-full lg:text-lg text-neutral-200">
+                    User can submit an alert, sending a text message or a phone
+                    call to a phone number
                   </span>
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
-              <h3 className="title-3 pb-1.5">Functionalities (core)</h3>
-              <p className="text-base text-neutral-400 mb-2">
-                Must be completed by the end of the hackathon
-              </p>
-
-              <ul className="list grid gap-3">
-                <li className="flex gap-3">
-                  <ExclamationCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></ExclamationCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can create an account
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <ExclamationCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></ExclamationCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can learn how to use the app through an onboarding flow
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <ExclamationCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></ExclamationCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can share their location
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <ExclamationCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></ExclamationCircleIcon>
-                  <span className="w-full leading-6 text-lg">
-                    User can submit an alert
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <ExclamationCircleIcon
-                    width={20}
-                    height={20}
-                    className="w-6 h-6 text-neutral-200"
-                  ></ExclamationCircleIcon>
-                  <div className="w-full">
-                    <span className="w-full leading-6 text-lg">
-                      User can send an alert, sending a text message to a phone
-                      number with an automated voice reading out the alert
-                      details
-                    </span>
-                    <p className="mt-2 pb-0 leading-5 text-neutral-400">
-                      We were concerned about the feasibility of sending the
-                      phone call.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="grid lg:grid-cols-2 gap-4 lg:gap-6">
-            <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
-              <h3 className="title-3 pb-1.5">My deliverables</h3>
-              <p className="text-base text-neutral-400 mb-1 lg:mb-2">
-                Must be completed by the end of the hackathon
-              </p>
-
-              <ul className="inline-flex flex-wrap gap-3">
-                <li className="chip lg:text-lg">Figma prototype</li>
-                <li className="chip lg:text-lg">Frontend code</li>
-                <li className="chip lg:text-lg">Design guidelines</li>
-                <li className="chip lg:text-lg">Slide deck</li>
-                <li className="chip lg:text-lg">Presentation</li>
-              </ul>
-            </div>
-
-            <div className="rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6  flex flex-col">
+            <div className="rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6 flex flex-col lg:col-span-2">
               <h3 className="title-3 pb-1.5">Tech stack</h3>
               <p className="text-base text-neutral-400 mb-1 lg:mb-2">
-                For design and development
+                Eunsaem and I knew that the app needed to be available for both
+                Android and iOS, which is why we used React Native.
               </p>
               <ul className="inline-flex flex-wrap gap-3">
-                <li className="chip lg:text-lg">React Native</li>
-                <li className="chip lg:text-lg">Google Firebase</li>
-                <li className="chip lg:text-lg">Twilio API</li>
-                <li className="chip lg:text-lg">JavaScript</li>
-                <li className="chip lg:text-lg">Figma</li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/react-native-logo.png"
+                    width={100}
+                    height={87}
+                    alt="React Native logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  React Native
+                </li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/firebase-logo.png"
+                    width={74}
+                    height={100}
+                    alt="Google Firebase logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  Google Firebase
+                </li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/twilio-logo.png"
+                    width={100}
+                    height={100}
+                    alt="Twilio logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  Twilio API
+                </li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/javascript-logo.png"
+                    width={89}
+                    height={100}
+                    alt="JavaScript logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  JavaScript
+                </li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/github-logo.png"
+                    width={100}
+                    height={100}
+                    alt="Figma logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  GitHub
+                </li>
+                <li className="chip-with-img lg:text-lg font-mono">
+                  <img
+                    src="/projects/chow-now/figma-logo.png"
+                    width={67}
+                    height={100}
+                    alt="Figma logo"
+                    className="h-full w-auto max-h-5 max-w-5"
+                  ></img>
+                  Figma
+                </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="max-w-full">
-        <h2 className="headline pb-3">Solution</h2>
-        <p className="title-2 mb-3">
-          Chow Now enables victims of domestic violence to confidentially report
-          incidents of abuse to local authorities with discretion.
-        </p>
-        <div className="grid gap-6 lg:gap-8">
-          <div className="grid gap-2 lg:gap-0">
-            <img
-              width={1920}
-              height={1080}
-              src="/projects/chow-now/highlight-2-1920x1080.png"
-              alt="Chow Now asking permission to access user's location"
-              className="rounded-lg"
-            ></img>
-            <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
-              <div className="-ml-3 lg:ml-0 chip h-fit">
-                <h3>Location services</h3>
-              </div>
-              <p className="pb-0">
-                Enhancing the efficiency of reporting incidents with location
-                services.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-2 lg:gap-0">
-            <img
-              width={1920}
-              height={1080}
-              src="/projects/chow-now/highlight-1-1920x1080.png"
-              alt="Feature to add an emergency contact in Chow Now"
-              className="rounded-lg"
-            ></img>
-            <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
-              <div className="-ml-3 lg:ml-0 chip h-fit">
-                <h3>Emergency contacts</h3>
-              </div>
-              <p className="pb-0">
-                Assisting users in preparing for emergencies by including
-                emergency contacts.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-2 lg:gap-0">
-            <img
-              width={1920}
-              height={1080}
-              src="/projects/chow-now/highlight-3-1920x1080.png"
-              alt="Chow Now looking like a typical takeout app, nothing suspicious here"
-              className="rounded-lg"
-            ></img>
-            <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
-              <div className="-ml-3 lg:ml-0 chip h-fit">
-                <h3>Standard interface</h3>
-              </div>
-              <p className="pb-0">
-                Avoiding suspicion through the user interface of a standard food
-                delivery application.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-2 lg:gap-0">
-            <img
-              width={1920}
-              height={1080}
-              alt="Toggling between different views on Chow Now"
-              src="/projects/chow-now/highlight-4-1920x1080.png"
-              className="rounded-lg"
-            ></img>
-            <div className="flex flex-col lg:flex-row gap-1 lg:gap-2 my-2 lg:items-center">
-              <div className="-ml-3 lg:ml-0 chip h-fit">
-                <h3>Toggling</h3>
-              </div>
-              <p className="pb-0">
-                Providing discretion by allowing toggling between different
-                views.
-              </p>
             </div>
           </div>
         </div>
@@ -535,19 +524,18 @@ export default function ChowNow() {
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-12 mb-8">
           <div>
             <p className="title-2 mb-3">
-              Chow Now won 1st place and the Best UI/UX Design Award at cmd-f
-              2023.
+              Chow Now won 1st place and the Best Design Award at cmd-f 2023.
             </p>
             <p>
-              This idea sparked after I learned that domestic violence incidents
-              rise after major sporting events. As a designer, I strive to
-              design meaningful solutions that address real user needs, so I
-              teamed up with Eunsaem to take action.
+              As a designer, I strive to create meaningful solutions that
+              address real user needs, and cmd-f was the perfect place for
+              Eunsaem and I to challenge ourselves.
             </p>
-            <p className="pb-0">
-              After 23 hours of design and development, I am thrilled to share
-              that our team was announced the first place winner of cmd-f 2023
-              and we were also awarded Iris Labs' Best UI/UX Design Award.
+            <p>
+              I learned so much in the 23 hours of design and development that
+              Eunsaem and I performed and we achieved even more than I ever
+              dreamed of achieving, so we were honored to accept both the 1st
+              place prize of cmd-f 2023 as well as Iris Labs' Best Design Award.
             </p>
           </div>
           <div className="order-first lg:order-last">
@@ -581,8 +569,9 @@ export default function ChowNow() {
                   className="w-7 h-7 text-blue-400"
                 ></MagnifyingGlassCircleIcon>
                 <span className="w-full leading-6">
-                  Rapid prototyping is the way to go for testing ideas
-                  quickly—especially in a fast-paced hackathon environment.
+                  Taking the time to define a user flow, even in a fast-paced
+                  hackathon environment, is worth it if it means everyone
+                  getting on the same page.
                 </span>
               </li>
               <li className="flex gap-3">
@@ -593,8 +582,8 @@ export default function ChowNow() {
                 ></MagnifyingGlassCircleIcon>
                 <span className="w-full leading-6">
                   It's not enough to communicate effectively when you have a
-                  significant time constraint, you have to communicate{" "}
-                  <em>efficiently</em> too.
+                  significant time constraint, you also have to communicate{" "}
+                  <em>efficiently</em>.
                 </span>
               </li>
             </ul>
@@ -628,7 +617,7 @@ export default function ChowNow() {
                 </span>
               </li>
             </ul>
-          </div>{" "}
+          </div>
           <div className="flex flex-col rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-4 lg:p-6">
             <h3 className="title-4 mb-2">What I could have improved</h3>
 
@@ -653,8 +642,8 @@ export default function ChowNow() {
                 ></ExclamationCircleIcon>
                 <span className="w-full leading-6">
                   I spent 4 hours trying to change the default font of our React
-                  Native app, and I never figured it out. Next time, I need to
-                  prioritize better!
+                  Native app, and I never figured it out. I'll have to
+                  prioritize better next time!
                 </span>
               </li>
             </ul>
@@ -662,11 +651,33 @@ export default function ChowNow() {
         </div>
       </section>
 
-      <section id="testimonials">
-        <h2 className="headline pb-3">Feedback and Reviews</h2>
-        <p className="title-2 mb-3">
+      <div className="divider"></div>
+
+      <section id="testimonials" className="flex flex-col items-center">
+        <div className="h-16 w-16 bg-gradient-to-b from-emerald-400 to-emerald-700 rounded-lg mb-6">
+          <div className="m-[0.0625rem] bg-gradient-to-b from-neutral-800 to-neutral-950 w-[calc(100%-0.125rem)] h-[calc(100%-0.125rem)] rounded-lg flex items-center justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="w-8 h-8 text-emerald-400"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <h2 className="title-1">Feedback and Reviews</h2>
+        <p className="text-center text-neutral-400 mb-4">
           Here's what people are saying about Chow Now.
         </p>
+
         <div
           id="testimonials-container"
           className="grid md:grid-cols-1 xl:grid-cols-3 gap-4 xl:gap-6"
@@ -683,13 +694,12 @@ export default function ChowNow() {
               mockup!
             </Testimonial>
             <Testimonial
-              firstName="Kelly"
-              lastName="Jiang"
-              title="Full-Stack Software Developer"
-              imgLink="../kelly-jiang.jpg"
+              imgLink="../vandy-liu.jpg"
+              firstName="Vandy"
+              lastName="Liu"
+              title="Software Engineer at Astronomer"
             >
-              Congratulations you guys!! Your app and idea were both super
-              awesome :))
+              👍 😁 👍 congrats! amazing project!!
             </Testimonial>
           </div>
           <div className="testimonial-column">
@@ -721,12 +731,13 @@ export default function ChowNow() {
               was so cool!
             </Testimonial>
             <Testimonial
-              imgLink="../vandy-liu.jpg"
-              firstName="Vandy"
-              lastName="Liu"
-              title="Software Engineer at Astronomer"
+              firstName="Kelly"
+              lastName="Jiang"
+              title="Full-Stack Software Developer"
+              imgLink="../kelly-jiang.jpg"
             >
-              👍 😁 👍 congrats! amazing project!!
+              Congratulations you guys!! Your app and idea were both super
+              awesome :))
             </Testimonial>
           </div>
         </div>

@@ -4,8 +4,11 @@ export default function Footer() {
   return (
     <footer className="bg-neutral-950/60 w-full flex flex-col items-center mt-16 lg:mt-24">
       <div className="divider max-w-[80rem]"></div>
-      <div className="p-6 lg:px-20 w-full max-w-[80rem] flex flex-col items-center gap-6">
-        <nav className="flex flex-row gap-8" aria-label="Footer">
+      <div className="p-6 lg:px-20 w-full max-w-[80rem] flex flex-col items-center gap-10 xs:gap-6">
+        <nav
+          className="flex flex-row gap-x-8 gap-y-4 items-center justify-center flex-wrap"
+          aria-label="Footer"
+        >
           <a href="/" className="link">
             Home
           </a>
