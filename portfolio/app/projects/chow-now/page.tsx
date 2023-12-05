@@ -29,6 +29,8 @@ export default function ChowNow() {
           <img
             src="/projects/chow-now/header.png"
             alt="Screens from Chow Now app"
+            width={800}
+            height={1621}
           ></img>
         </picture>
       </section>
